@@ -161,7 +161,7 @@
         </div>
       </div>
     </section>
-    <section class="ratio ratio-21x9">
+    <section class="ratio ratio-16x9">
       <iframe
         class=""
         :src="destination.video"

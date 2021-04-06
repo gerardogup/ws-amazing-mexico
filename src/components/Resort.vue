@@ -19,12 +19,10 @@
   </div>
 </template>
 <script>
-import Carousel from "@/components/Carousel.vue";
 import Gallery from "@/components/Gallery.vue";
 export default {
   props: ["rst"],
   components: {
-      Carousel,
       Gallery
   }
 };

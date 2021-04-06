@@ -9,6 +9,12 @@
     </ul>
     
     <span v-html="pkg.offer.description"></span>
+
+    <h4>What All Inclusive means?</h4>
+
+    <ul>
+      <li v-for="(li,i) in pkg.offer.allInclusive" :key="i">{{ li }}</li>
+    </ul>
   </div>
 </template>
 <script>

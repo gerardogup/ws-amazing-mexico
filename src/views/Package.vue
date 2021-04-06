@@ -128,7 +128,7 @@
               v-if="this.otherPackages.length > 0"
             >
               More packages in {{ destination.name }}
-              <div class="row">
+              <div class="row mt-3">
                 <div
                   class="col-12"
                   v-for="pckg in otherPackages"
@@ -156,6 +156,7 @@ import Room from "@/components/Room.vue";
 import Amenities from "@/components/Amenities.vue";
 import Location from "@/components/Location.vue";
 import Reviews from "@/components/Reviews.vue";
+import PackageCard from "@/components/PackageCard.vue";
 
 export default {
   name: "Package",
@@ -173,6 +174,7 @@ export default {
     Amenities,
     Location,
     Reviews,
+    PackageCard
   },
   computed: {
     otherPackages() {
