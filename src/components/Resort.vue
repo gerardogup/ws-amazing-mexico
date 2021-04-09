@@ -14,7 +14,7 @@
         </tr>
       </tbody>
     </table>
-    <h3 class="oh-golds text-dark-green mt-5">From our gallery</h3>
+    <h3 class="oh-golds text-dark-green mt-4 mt-md-5">From our gallery</h3>
     <gallery :content="rst.gallery"></gallery>
   </div>
 </template>

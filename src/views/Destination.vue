@@ -1,10 +1,10 @@
 <template>
   <div>
     <carousel :content="destination.carousel" :calltoaction="true" />
-    <section class="destination py-5">
+    <section class="destination pt-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-8 mb-5">
             <ul class="nav nav-pills nav-fill bg-turquoise p-3 rounded">
               <li class="nav-item">
                 <a
@@ -99,7 +99,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-5">
             <div class="bg-blue rounded-top text-white pt-4 px-4 pb-3 lh-1">
               <div>Would you like a</div>
               <div class="h2 fw-bold">Free Vacation</div>

@@ -15,14 +15,14 @@
             </h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row row-cols-1 row-cols-md-5">
           <div
             class="col"
             v-for="destination in destinations"
             :key="destination.slug"
           >
             <div
-              class="card card-destination"
+              class="card card-destination mb-3"
               :style="`background-image: url('${require(`@/assets/images${destination.image}`)}')`"
             >
               <div class="card-body">
@@ -40,25 +40,25 @@
     <section class="lookingfor bg-aqua">
       <div class="container py-5">
         <div class="row">
-          <div class="col text-center px-5">
+          <div class="col text-center px-sm-5">
             <h2 class="mb-4 oh-golds text-dark-green display-5">
               Looking for Vacation Packages in Mexico
             </h2>
-            <p class="px-5">
+            <p class="px-sm-5">
               At Amazing Mexico our mission is helping you to get an affordable
               and relaxing vacation in the best beach destinations of Mexico. We
               are guarantee you the best prices for Mexican vacation packages on
               the internet. We can beat any vacation package price posted online
               for any major Mexican resorts.
             </p>
-            <p class="px-5">
+            <p class="px-sm-5">
               The staff at Amazing Mexico are specialists committed to provide
               an immediate response to your requests by phone, email, chat or
               social media. We are a BBB certified business. Our representatives
               have wide knowledge of the destinations, resorts and services we
               offer.
             </p>
-            <p class="text-dark-green px-5">
+            <p class="text-dark-green px-sm-5">
               <strong
                 >Call us today an allow us to help you to get the best vacation
                 of your life</strong
@@ -74,8 +74,7 @@
           <div class="col">
             <img
               :src="require(`@/assets/images/home/map.jpg`)"
-              class="d-block img-fluid mx-auto"
-              style="max-width: 1151px"
+              class="img-fluid"
               alt="destinations map"
             />
           </div>

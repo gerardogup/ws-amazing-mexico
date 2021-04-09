@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-8"></div>
         <div class="col-md-4">
-          <div class="spot">
+          <div class="spot d-none d-sm-block">
             <h2 class="fw-bold">{{ pkg.name }}</h2>
             <span class="d-block"
               >{{ pkg.nights + 1 }} days &amp; {{ pkg.nights }} nights</span
@@ -44,10 +44,47 @@
 
     <carousel :content="pkg.headers" />
 
-    <section class="details py-5">
+    <section class="package-details d-sm-none">
+      <div class="row mt-3 px-2">
+        <div class="col text-center text-blue">
+          <h2 class="fw-bold">{{ pkg.name }}</h2>
+          <span class="d-block"
+            >{{ pkg.nights + 1 }} days &amp; {{ pkg.nights }} nights</span
+          >
+          <span class="d-block"
+            >{{ pkg.adults }} adults &amp; {{ pkg.children }} children</span
+          >
+          <span class="d-block">{{ pkg.plan }}</span>
+          <span class="d-block my-2">
+            <span class="display-md-4 display-1 align-top fw-bolder d-inline-block"
+              >${{ pkg.priceUSD }}</span
+            >
+            <span
+              class="d-inline-block lh-1 text-dark-green text-start ms-2 fw-bold"
+            >
+              <small>RETAIL PRICE</small>
+              <br /><span class="retail-price">${{ pkg.retailPriceUSD }}</span>
+              <br />SAVINGS {{ pkg.savings }}
+            </span>
+          </span>
+          <small class="d-block"
+            >*Package Price. Not per person. Not per night.</small
+          >
+          <span class="mt-3 d-block h4 fw-bold text-dark-green"
+            >Worry Free Booking</span
+          >
+          <span class="text-dark-green">
+            Book Now, decide dates later.<br />
+            Free Cancellation before
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="details py-3 py-md-5">
       <div class="container">
         <div class="row">
-          <div class="col col-md-8">
+          <div class="col col-md-8 mb-3 mb-md-5">
             <ul class="nav nav-pills nav-fill bg-turquoise p-3 rounded mb-4">
               <li class="nav-item">
                 <a
@@ -117,7 +154,7 @@
               <reviews :content="pkg.reviews" />
             </div>
           </div>
-          <div class="col col-md-4">
+          <div class="col col-md-4 mb-5">
             <div class="bg-blue rounded-top text-white pt-4 px-4 pb-3 lh-1">
               <div class="h2 fw-bold mb-0">Call Now!</div>
               <div>

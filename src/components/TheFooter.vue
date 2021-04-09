@@ -1,8 +1,14 @@
 <template>
   <section class="footer py-5">
-    <div class="container pt-5">
-      <div class="row pt-5">
-        <div class="col-md-3">
+    <div class="fixed-bottom bg-white px-3 py-3 shadow-lg lh-1 d-sm-none">
+      <a href="tel:+18665015836">
+        <small class="text-dark-green">ANY DOUBT? CALL TOLL FREE</small>
+        <span class="fw-bolder fs-2 d-block text-green">1 866 501 5836</span>
+      </a>
+    </div>
+    <div class="container pt-3 pt-md-5">
+      <div class="row pt-3 pt-md-5">
+        <div class="col-md-3 mb-3 lh-lg">
           <router-link class="d-block text-aqua" :to="'/terms-and-conditions'">
             TERMS &amp; CONDITIONS
           </router-link>
@@ -10,15 +16,15 @@
             PRIVACY POLICY
           </router-link>
         </div>
-        <div class="col-md-4 text-white">
+        <div class="col-md-4 text-white mb-3">
           <span class="d-block"> P: +1 866 883 0573</span>
           <span class="d-block"> E: reservations@amazing-mexico.com </span>
           <span class="d-block"> W: www.amazing-mexico.com </span>
         </div>
-        <div class="col-md-3 text-white">
+        <div class="col-md-3 text-white mb-3">
           Copyright @ 2021. Amazing Mexico. All Rights Reserved.
         </div>
-        <div class="col-md-2 text-end">
+        <div class="col-md-2 text-sm-end">
           <a href="https://www.facebook.com/mexicoisamzing">
             <i class="bi-facebook fs-2 me-3 text-white"></i>
           </a>
@@ -28,7 +34,7 @@
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-md-6">
+        <div class="col-md-6 mb-3">
           <h6 class="text-green">Affiliations</h6>
           <img
             :src="require('@/assets/images/layout/adeprotur.png')"
@@ -48,9 +54,13 @@
             alt="BBB"
           />
         </div>
-        <div class="col-md-6 text-end">
+        <div class="col-md-6 text-sm-end pb-md-1 pb-5">
           <h6 class="text-green">Accepted Credit Cards</h6>
-<img :src="require('@/assets/images/layout/major-credit-cards.png')" style="height: 35px;" alt="Credit Cards">
+          <img
+            :src="require('@/assets/images/layout/major-credit-cards.png')"
+            style="height: 35px"
+            alt="Credit Cards"
+          />
         </div>
       </div>
     </div>

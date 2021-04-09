@@ -4,7 +4,7 @@
       <span class="float-end h2 fw-bold text-blue">${{ room.priceUSD }}</span>
       <h2 class="oh-golds text-dark-green">{{ room.name }}</h2>
       <span v-html="room.description"></span>
-      <h3 class="oh-golds text-dark-green mt-5">From our gallery</h3>
+      <h3 class="oh-golds text-dark-green mt-4 mt-md-5">From our gallery</h3>
       <gallery :content="room.gallery"></gallery>
     </div>
   </div>

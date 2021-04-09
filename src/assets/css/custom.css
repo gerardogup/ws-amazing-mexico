@@ -43,10 +43,6 @@ a {
   height: 120px;
 }
 
-.navbar-nav .nav-link {
-padding: 48px 7px;
-}
-
 .navbar-nav .nav-link.active {
   background: #e5eee9;
 }
@@ -91,4 +87,10 @@ ul.green-list li::before {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media (min-width: 576px) { 
+.navbar-nav .nav-link {
+  padding: 48px 7px;
+  }
 }

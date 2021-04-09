@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div class="container bg-white" style="z-index: 1100">
         <router-link class="navbar-brand" to="/">
@@ -48,7 +48,7 @@
               </a>
             </li>
           </ul>
-          <span class="navbar-text lh-1 text-end">
+          <span class="navbar-text lh-1 text-end d-none d-md-block">
             <a href="tel:+18665015836">
               <small class="text-dark-green">ANY DOUBT? CALL TOLL FREE</small>
               <span class="fw-bolder fs-2 d-block text-green"
@@ -59,7 +59,7 @@
         </div>
       </div>
     </nav>
-  </header>
+  </div>
 </template>
 <script>
 import store from "@/store.js";

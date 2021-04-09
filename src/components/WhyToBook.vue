@@ -9,14 +9,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center mb-4">
           <img
             :src="require('@/assets/images/home/best-price.png')"
             alt="Best Price"
           />
           <div class="fs-5 mt-4 fw-bold text-muted">Best Price<br>Guaranteed</div>
         </div>
-        <div class="col text-center">
+        <div class="col text-center mb-4">
           <img
             :src="require('@/assets/images/home/customer-service.png')"
             alt="Customer Service"
@@ -25,7 +25,7 @@
             Customer Service<br />7 Days a Week
           </div>
         </div>
-        <div class="col text-center">
+        <div class="col text-center mb-4">
           <img
             :src="require('@/assets/images/home/resort-directly.png')"
             alt="Resort Directly"
@@ -34,14 +34,14 @@
             We work directly with the resort
           </div>
         </div>
-        <div class="col text-center">
+        <div class="col text-center mb-4">
           <img
             :src="require('@/assets/images/home/flexible.png')"
             alt="Flexible Rescheduling"
           />
           <div class="fs-5 mt-4 fw-bold text-muted">Flexible<br>Rescheduling</div>
         </div>
-        <div class="col text-center">
+        <div class="col text-center mb-4">
           <img
             :src="require('@/assets/images/home/secure.png')"
             alt="Secure Transactions"

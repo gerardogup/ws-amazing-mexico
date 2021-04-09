@@ -1,5 +1,6 @@
 <template>
   <div>
+    <section class="d-none d-md-block">
     <div class="row">
       <div class="col-md-3" v-for="(pic, p) in content" :key="p">
         <img
@@ -11,6 +12,7 @@
         />
       </div>
     </div>
+</section>
     <div
       class="modal fade"
       :id="this.id"
@@ -33,12 +35,18 @@
               :content="content"
               :calltoaction="false"
               :index="imageIndex"
-              >></carousel
+              ></carousel
             >
           </div>
         </div>
       </div>
     </div>
+
+    <carousel class="d-block d-md-none"
+              :content="content"
+              :calltoaction="false"
+              ></carousel
+            >
   </div>
 </template>
 <script>

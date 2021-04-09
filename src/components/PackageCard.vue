@@ -50,6 +50,6 @@ export default {
 
 .sold-out {
   position: absolute;
-  margin-top: -35px;
+  margin-top: -5px;
 }
 </style>
