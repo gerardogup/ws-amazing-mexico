@@ -21,7 +21,10 @@
                 class="d-inline-block lh-1 text-dark-green text-start ms-2 fw-bold"
               >
                 <small>RETAIL PRICE</small>
-                <br />${{ pkg.retailPriceUSD }} <br />SAVINGS {{ pkg.savings }}
+                <br /><span class="retail-price"
+                  >${{ pkg.retailPriceUSD }}</span
+                >
+                <br />SAVINGS {{ pkg.savings }}
               </span>
             </span>
             <small class="d-block"
@@ -123,21 +126,26 @@
                 <div class="h2">+1 866 883 0573</div>
               </div>
             </div>
-            <div
-              class="bg-turquoise px-4 py-4"
-              v-if="this.otherPackages.length > 0"
-            >
+            <div class="bg-turquoise px-4 py-4" v-if="this.otherPackage">
               More packages in {{ destination.name }}
               <div class="row mt-3">
-                <div
-                  class="col-12"
-                  v-for="pckg in otherPackages"
-                  :key="pckg.name"
-                >
-                  <package-card
-                    :package="pckg"
-                    :destinationslug="destination.slug"
-                  ></package-card>
+                <div class="col-12">
+                  <package-card :package="otherPackage"></package-card>
+
+                  <router-link
+                    :to="{
+                      name: 'Destination',
+                      params: { slug: destination.slug },
+                      hash: '#bestdeals',
+                    }"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-green mx-auto d-block mt-3"
+                    >
+                      More Packages
+                    </button>
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -174,11 +182,20 @@ export default {
     Amenities,
     Location,
     Reviews,
-    PackageCard
+    PackageCard,
   },
   computed: {
-    otherPackages() {
-      return this.destination.packages.filter((pk) => pk.id != this.pkg.id);
+    otherPackage() {
+      let index = 0;
+      this.destination.packages.forEach((pack, p) => {
+        if (pack.name == this.pkg.name) {
+          index = p + 1;
+        }
+      });
+      if (index == this.destination.packages.length) {
+        index = 0;
+      }
+      return this.destination.packages[index];
     },
     destination() {
       return store.destinations.find(
@@ -202,5 +219,9 @@ export default {
   text-align: center;
   color: #02bfd0;
   max-width: 450px;
+}
+
+.retail-price {
+  text-decoration: line-through;
 }
 </style>

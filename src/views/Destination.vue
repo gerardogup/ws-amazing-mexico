@@ -143,7 +143,7 @@
         </div>
       </div>
     </section>
-    <section class="bestdeals bg-aqua">
+    <section id="bestdeals" class="bg-aqua">
       <div class="container py-5">
         <div class="row">
           <div class="col text-center">

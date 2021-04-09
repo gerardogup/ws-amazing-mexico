@@ -128,6 +128,7 @@ export default {
           if (pkg.includeInHome) {
             let _package = {... pkg }
             _package.slug = dest.slug + '/' + pkg.slug;
+            _package.destination = dest.name;
             packages.push(_package);
           }
         });

@@ -156,6 +156,7 @@ export default {
           slug: "palmas-all-inclusive",
           image: "/puerto-vallarta/packages/palmas/palmas-pool-4.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 5,
           adults: 2,
           children: 2,
@@ -349,6 +350,7 @@ export default {
           slug: "grand-all-inclusive",
           image: "/puerto-vallarta/packages/grand/grand-pool-3.jpg",
           includeInHome: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -557,11 +559,12 @@ export default {
           ],
         },
         {
-          id: 2,
+          id: 3,
           name: "Barcelo All Inclusive",
           slug: "bercelo-all-inclusive",
           image: "/puerto-vallarta/packages/barcelo/barcelo-pool-3.jpg",
           includeInHome: false,
+          soldOut: true,
           nights: 4,
           adults: 2,
           children: 2,
@@ -757,11 +760,12 @@ export default {
           ],
         },
         {
-          id: 2,
+          id: 4,
           name: "Melia All Inclusive",
           slug: "melia-all-inclusive",
           image: "/puerto-vallarta/packages/melia/melia-pool.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -1077,11 +1081,12 @@ export default {
       },
       packages: [
         {
-          id: 1,
+          id: 5,
           name: "San Jose All Inclusive",
           slug: "San-jose-all-inclusive",
           image: "/cabo-san-lucas/packages/san-jose/san-jose-beach-2.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -1284,11 +1289,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 6,
           name: "Faro All Inclusive",
           slug: "faro-all-inclusive",
           image: "/cabo-san-lucas/packages/faro/faro-hotel.jpg",
           includeInHome: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -1552,11 +1558,12 @@ export default {
       },
       packages: [
         {
-          id: 1,
+          id: 7,
           name: "Ocean Riviera Paradise",
           slug: "ocean-riviera-paradise-all-inclusive",
           image: "/mayan-riviera/packages/ocean-paradise/ocean-hotel-6.jpg",
           includeInHome: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -1795,11 +1802,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 8,
           name: "Esmeralda Inclusive",
           slug: "esmeralda-all-inclusive",
           image: "/mayan-riviera/packages/esmeralda/esmeralda-hotel-5.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2015,11 +2023,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 9,
           name: "Xpu Ha Resort All Inclusive",
           slug: "xpu-ha-resort-all-inclusive",
           image: "/mayan-riviera/packages/xpu-ha/xpu-ha-pool-2.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2301,11 +2310,12 @@ export default {
       },
       packages: [
         {
-          id: 1,
+          id: 10,
           name: "Cancun Palmar",
           slug: "cancun-palmar-all-inclusive",
           image: "/cancun/packages/palmar/palmar-hotel-7.jpg",
           includeInHome: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2562,11 +2572,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 11,
           name: "Cancun Lite",
           slug: "cancun-lite-all-inclusive",
           image: "/cancun/packages/lite/lite-pool-2.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2709,11 +2720,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 12,
           name: "Cancun Palm",
           slug: "cancun-palm-all-inclusive",
           image: "/cancun/packages/palm/palm-pool-3.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2936,11 +2948,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 13,
           name: "Cancun Grand Palm",
           slug: "cancun-grand-palm-all-inclusive",
           image: "/cancun/packages/grand-palm/grand-palm-bar.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -3192,11 +3205,12 @@ export default {
           ],
         },
         {
-          id: 1,
+          id: 14,
           name: "Cancun Grand",
           slug: "cancun-grand-all-inclusive",
           image: "/cancun/packages/grand-cancun/grand-cancun-hotel.jpg",
           includeInHome: false,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
@@ -3437,7 +3451,7 @@ export default {
           {
             url: "/loreto/activities/activities-7.jpg",
             text: "Snorkeling",
-          }, 
+          },
           {
             url: "/loreto/activities/activities-3.jpg",
             text: "Golf",
@@ -3446,7 +3460,7 @@ export default {
             url: "/loreto/activities/activities-4.jpg",
             text: "Paddle & Kayak",
           },
-        
+
           {
             url: "/loreto/activities/activities-6.jpg",
             text: "Beach",
@@ -3459,7 +3473,7 @@ export default {
           flightsPerDay: 1,
           time: "2 hrs 04 min",
         },
-        
+
       ],
       weather: {
         description:
@@ -3489,323 +3503,325 @@ export default {
       },
       packages: [
         {
-            id: 1,
-            name: "Loreto Palmar All Inclusive",
-            slug: "loreto-palmar-all-inclusive",
-            image: "/loreto/packages/villa-loreto/VillaLoreto_Hotel3.jpg",
-            includeInHome: false,
-            nights: 4,
-            adults: 2,
-            children: 2,
-            plan: "All Inclusive",
-            retailPriceUSD: 1998,
-            priceUSD: 699,
-            savings: "66%",
-            headers: [
-              {
-                url: "/loreto/packages/villa-loreto/VillaLoreto_Resort.jpg",
-                text: "",
-              },
-              {
-                url: "/loreto/packages/villa-loreto/VillaLoreto_Resor2t.jpg",
-                text: "",
-              },
-              {
-                url: "/loreto/packages/villa-loreto/VillaLoreto_Resor3t.jpg",
-                text: "",
-              },
-            ],
-            offer: {
-              rating: 5,
-              includes: [
-                "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
-                "All Inclusive plan.",
-                "Stay in a super-comfortable, fully furnished Deluxe Suite with either two double or one queen size beds and balcony.",
-                "Complimentary fully staffed Kids Club with all day activities. Nannie and babysitting services available for an extra charge.",
-                
-              ],
-              description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
-              allInclusive: [
-                "Breakfast: Enjoy a breakfast buffet and/or a la carte meal at the Market Restaurant",
-                "Lunch: At the Market Restaurant, at Casa Mia, and at Clubhouse ",
-                "Dinner: At the Market Restaurant, at Mexican Corner, at Casa Mia",
-                "Alcoholic Beverages",
-                "In-Room Amenities",
-                "In-Room Services",
-                "Hotel Amenities",
-                "Unlimited Access To resort fitness and recreation facilities, pools, and hot tub",
-              ],
+          id: 15,
+          name: "Loreto Palmar All Inclusive",
+          slug: "loreto-palmar-all-inclusive",
+          image: "/loreto/packages/villa-loreto/VillaLoreto_Hotel3.jpg",
+          includeInHome: false,
+          soldOut: false,
+          nights: 4,
+          adults: 2,
+          children: 2,
+          plan: "All Inclusive",
+          retailPriceUSD: 1998,
+          priceUSD: 699,
+          savings: "66%",
+          headers: [
+            {
+              url: "/loreto/packages/villa-loreto/VillaLoreto_Resort.jpg",
+              text: "",
             },
-            resort: {
-              description:
-                "<p>The hotel epitomizes luxury within a small town while also offering complete privacy and every modern touch. The perfect place for everyone from honeymooners to large families.</p><p>The resort features 3,600 acres of unspoiled beauty. Boasting three restaurants and 20,000 square feet of turtle-shaped pools,it is minutes away from Downtown Islands of Loreto, extraordinary beaches, and world class golf courses.</p><p>Our restaurants are not limited to just extraordinary Mexican food; featuring restaurants that serve delicious steaks to fine Italian food that tempts every palate. You can even cook up dinner your own room in the private \"gourmet chef's kitchen\". Naturally, all the amenities that guests have come to expect are here too.</p>",
-              features: [],
-              gallery: [
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel2.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel3.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Beach.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Paddle.jpg",
-                  text: "",
-                },
-                {
-                  url:
-                    "/loreto/packages/villa-loreto/VillaLoreto_Restl.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Spa.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Spa2jpg.jpg",
-                  text: "",
-                },
-                {
-                  url:
-                    "/loreto/packages/villa-loreto/VillaLoreto_Golf.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/villa-loreto/VillaLoreto_Gym.jpg",
-                  text: "",
-                },
-                
-              ],
+            {
+              url: "/loreto/packages/villa-loreto/VillaLoreto_Resor2t.jpg",
+              text: "",
             },
-            rooms: [
-              {
-                name: "Deluxe Suite",
-                priceUSD: 499,
-                description:
-                  "Your deluxe suite invites you to enjoy cool days of relaxation in our air conditioned rooms, or just the soothing breeze from one of the palapa-inspired ceiling fans. And of course, an afternoon siesta is always awaiting you on your luxurious balcony with amazing views. Here at the resort of relaxation and luxury, you're guaranteed a 'perfect-moment' whether you want to snack on a meal you made with ease in your kitchenette or just had delivered onto your balcony.</p><p>Each luxurious accommodation in the Villa Del Palmar Resort offers every 'home-away-from-home' necessity you may need. The Deluxe Suite offers 2 double or 1 queen beds.</p>",
-                galleryDescription: "Be our guest and see it for yourself.",
-                gallery: [
-                  {
-                    url: "/loreto/packages/villa-loreto/VillaLoreto_Room.jpg",
-                    text: "",
-                  },
-  
-                  {
-                    url: "/loreto/packages/villa-loreto/VillaLoreto_Room1.jpg",
-                    text: "",
-                  },
-                  {
-                    url: "/loreto/packages/villa-loreto/VillaLoreto_Room2.jpg",
-                    text: "",
-                  },
-                  {
-                    url: "/loreto/packages/villa-loreto/VillaLoreto_Room4.jpg",
-                    text: "",
-                  },
-                ],
-              },
-            ],
-            amenities: [
-                "Four fire-pits on the beach which feature low level lighting to allow Loreto’s night sky to sparkle even more",
-                "Full-service water activities center",
-                "Tennis courts ($)",
-                "18 hole golf course at the Loreto Bay project, 30min. away from the Resort ($)",
-                "Free form, multi-level swimming pools",
-                "Fun hiking trails that lead to awe-inspiring waterfalls at la Sierra de la Giganta ($)",
-                "Restaurants, convenience stores ($), and bars",
-                "Full kitchen",
-                "Full furnishing with finely crafted wood furniture",
-                "LCD televisions",
-                "Marble floors",
-                "Granite countertops",
-                "Spacious 10ft balconies with patio furniture to enjoy the amazing views",
-                "Seafood restaurant that serves the fresh catch of the day",
-            ],
-            location: {
-              map:
-                '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.562303777733!2d-111.2357167843905!3d25.718912083656214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8cdb6209025%3A0x328727e664043480!2sVilla%20del%20Palmar%20at%20The%20Islands%20of%20Loreto!5e0!3m2!1ses-419!2smx!4v1617845743736!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+            {
+              url: "/loreto/packages/villa-loreto/VillaLoreto_Resor3t.jpg",
+              text: "",
             },
-            reviews: [
-              {
-                author: "Kathy Lynn Thompson",
-                city: "Salem",
-                comments:
-                  "We had some wonderful servers that we appreciated very much! Yasor (spelling ?), Marco, Guillimo and Jorge down on the beach! Ramon at the paddle board station was most helpful and such a gentleman! The gentlemen went out of their way to please. We appreciated every effort they put in. All of the staff was exceptional to us. I'm sure I am leaving some names out. We thank you for provided the best staff to guests as you have.",
-                date: "",
-                rating: 5,
-              },
-              {
-                author: "Craig NICHOLS",
-                city: "Laguna Niguel",
-                comments:
-                  "We would like to acknowledge the exceptional customer service provided by YARIZ, MANNY, GIRARDO, CANDELARIO, & SANTIAGO. In fact, the entire restaurant/serving staff was fantastic. We would also like to acknowledge OSCAR TORRES for his gracious efforts. Also, we LOVED your activities team, EDUARDO, ZAZIL, GENESIS, KAREN, DUVIS & RAMON. The shows were enjoyable and made our stay so much fun! CARLOS ZAMORA in Premium Services and OMAR, the shuttle driver, were extremely professional, helpful and wonderful to work with. We would also like to mention that MARIO from Wild Tours was terrific! Our vacation at Villa del Palmar was one of our best ever!!!",
-                date: "",
-                rating: 5,
-              },
-              {
-                author: "Loren Gardner",
-                city: "Sherman Oaks",
-                comments:
-                  "We couldn't have been more happy with the food and service we received during our stay. The staff was unbelievable. They were always greeting us with a smile, and many learned our names and greeting us on a first name basis. On our anniversary night at Dazante restaurant they had a placard with our names on it, and brought us dessert with a firework in it and captured that moment on camera for us. I've never been treated better anywhere in my life! At the pool, Manny was exceptional and had another drink (usually 2) ready for me once my current drink was nearing the bottom :) We have already been recommending Villa Del Palmar Loreto to family and friends!",
-                date: "",
-                rating: 5,
-              },
+          ],
+          offer: {
+            rating: 5,
+            includes: [
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "All Inclusive plan.",
+              "Stay in a super-comfortable, fully furnished Deluxe Suite with either two double or one queen size beds and balcony.",
+              "Complimentary fully staffed Kids Club with all day activities. Nannie and babysitting services available for an extra charge.",
+
+            ],
+            description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
+            allInclusive: [
+              "Breakfast: Enjoy a breakfast buffet and/or a la carte meal at the Market Restaurant",
+              "Lunch: At the Market Restaurant, at Casa Mia, and at Clubhouse ",
+              "Dinner: At the Market Restaurant, at Mexican Corner, at Casa Mia",
+              "Alcoholic Beverages",
+              "In-Room Amenities",
+              "In-Room Services",
+              "Hotel Amenities",
+              "Unlimited Access To resort fitness and recreation facilities, pools, and hot tub",
             ],
           },
-          {
-            id: 1,
-            name: "Loreto Bay All Inclusive",
-            slug: "loreto-bay-all-inclusive",
-            image: "/loreto/packages/bay/bay-hotel.jpg",
-            includeInHome: false,
-            nights: 4,
-            adults: 2,
-            children: 2,
-            plan: "All Inclusive",
-            retailPriceUSD: 1261,
-            priceUSD: 599,
-            savings: "53%",
-            headers: [
+          resort: {
+            description:
+              "<p>The hotel epitomizes luxury within a small town while also offering complete privacy and every modern touch. The perfect place for everyone from honeymooners to large families.</p><p>The resort features 3,600 acres of unspoiled beauty. Boasting three restaurants and 20,000 square feet of turtle-shaped pools,it is minutes away from Downtown Islands of Loreto, extraordinary beaches, and world class golf courses.</p><p>Our restaurants are not limited to just extraordinary Mexican food; featuring restaurants that serve delicious steaks to fine Italian food that tempts every palate. You can even cook up dinner your own room in the private \"gourmet chef's kitchen\". Naturally, all the amenities that guests have come to expect are here too.</p>",
+            features: [],
+            gallery: [
               {
-                url: "/loreto/packages/bay/bay_resort.jpg",
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel.jpg",
                 text: "",
               },
               {
-                url: "/loreto/packages/bay/bay-resort-2.jpg",
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel2.jpg",
                 text: "",
               },
               {
-                url: "/loreto/packages/bay/bay-resort-3.jpg",
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Hotel3.jpg",
                 text: "",
               },
-            ],
-            offer: {
-              rating: 5,
-              includes: [
-                "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
-                "All Inclusive plan.",
-                "Stay in a super-comfortable, fully furnished Deluxe Room",
-               
-                
-              ],
-              description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
-              allInclusive: [
-                "Daily Breakfast, Lunch, and Dinner A-la-Carte.",
-                "Unlimited alcoholic & non-alcoholic drinks.",
-                "Activities(volleyball, shuffle board, pool activities, etc.).",
-                "Non-motorized water sports.",
-              ],
-            },
-            resort: {
-              description:
-                "<p>Loreto Bay Golf Resort & Spa is nestled on the shores of the Mar de Cortes, in the exclusive Nopolo Bay. The Sierra La Giganta Mountains and the vast desert join together to create a magical setting and a heavenly ambiance.</p><p>The beauty of this paradise emerges from each grain of sand, each wave and also from the majestic rock formations that create magnificent scenic views. In this exclusive enclave, you will enjoy the most attentive and sophisticated service.</p><p>We invite you to enjoy with us the nature and beauty of Loreto, Baja California South.</p>",
-              features: [],
-              gallery: [
-                {
-                  url: "/loreto/packages/bay/bay-hotel.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/bay/bay-hotel-2.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/bay/bay-hotel-3.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/bay/bay-hotel-4.jpg",
-                  text: "",
-                },
-                {
-                  url: "/loreto/packages/bay/ bay-hotel-5.jpg",
-                  text: "",
-                },
-                {
-                  url:
-                    "/loreto/packages/bay/bay-pool.jpg",
-                  text: "",
-                },
-                {
-                    url:
-                      "/loreto/packages/bay/bay-loreto.jpg",
-                    text: "",
-                  },
-                
-                
-              ],
-            },
-            rooms: [
               {
-                name: "Deluxe Room ",
-                priceUSD: 399,
-                description:
-                  "Large and comfortable rooms with a balcony. All the rooms feature oversized bathroom with luxurious amenities.</p>",
-                galleryDescription: "Be our guest and see it for yourself.",
-                gallery: [
-                  {
-                    url: "/loreto/packages/bay/bay-room-3.jpg",
-                    text: "",
-                  },
-  
-                  {
-                    url: "/loreto/packages/bay/bay-room-4.jpg",
-                    text: "",
-                  },
-                  {
-                    url: "/loreto/packages/bay/bay-room-3.jpg",
-                    text: "",
-                  },
-                  {
-                    url: "/loreto/packages/bay/bay-room-5.jpg",
-                    text: "",
-                  },
-                ],
-              },
-            ],
-            amenities: [
-                "Sports Bar",
-                "Pools",
-                "2 Restaurants",
-                "Spa",
-                "Activities",
-                "Loreto Bay Golf Course",
-                "Tennis courts",
-                "Gym",
-            ],
-            location: {
-              map:
-                '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.444087345616!2d-111.35029648255616!3d25.920639399999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86b43d8ec8fc75cf%3A0x4387a1eec45d00e4!2sHotel%20Loreto%20Bay%20Golf%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2smx!4v1617847288802!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-            },
-            reviews: [
-              {
-                author: "Albrecht",
-                city: "USA",
-                comments:
-                  "I chose Loreto Bay for a special week-long family holiday and was not disappointed... what a fantastic place! No crowds at the pool or the pool bar, no dirt on the beach, nice quiet rooms with great views and, above and beyond, incredible hospitality. Carlos, Jose Luis and Itzel at reception, Tulio and his team at the restaurant, and every other member of the staff are incredibly friendly and honest people. They organized an exclusive candle-light dinner on the beach and brought me my wallet back after I'd forgotten it on the table",
-                date: "",
-                rating: 5,
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Beach.jpg",
+                text: "",
               },
               {
-                author: "Steve and Family",
-                city: "California",
-                comments:
-                  "Loreto Bay Golf Resort was friendly and welcoming. Service was outstanding and the staff was always happy to help. We had one of the best trips as a family and look forward to coming back. Kitchen prepared the Dorado we caught in an amazing fashion. Only thing I had to say is I wish they had ice machines and vending for soft drinks after hours. Other than that we are planning on returning annually as a family. Great job to Carlos and his staff of Victor, Oscar, Eloy, Eduardo and all else that welcomed us every day when we were there. Thanks again",
-                date: "",
-                rating: 5,
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Paddle.jpg",
+                text: "",
               },
-              
+              {
+                url:
+                  "/loreto/packages/villa-loreto/VillaLoreto_Restl.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Spa.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Spa2jpg.jpg",
+                text: "",
+              },
+              {
+                url:
+                  "/loreto/packages/villa-loreto/VillaLoreto_Golf.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Gym.jpg",
+                text: "",
+              },
+
             ],
           },
+          rooms: [
+            {
+              name: "Deluxe Suite",
+              priceUSD: 499,
+              description:
+                "Your deluxe suite invites you to enjoy cool days of relaxation in our air conditioned rooms, or just the soothing breeze from one of the palapa-inspired ceiling fans. And of course, an afternoon siesta is always awaiting you on your luxurious balcony with amazing views. Here at the resort of relaxation and luxury, you're guaranteed a 'perfect-moment' whether you want to snack on a meal you made with ease in your kitchenette or just had delivered onto your balcony.</p><p>Each luxurious accommodation in the Villa Del Palmar Resort offers every 'home-away-from-home' necessity you may need. The Deluxe Suite offers 2 double or 1 queen beds.</p>",
+              galleryDescription: "Be our guest and see it for yourself.",
+              gallery: [
+                {
+                  url: "/loreto/packages/villa-loreto/VillaLoreto_Room.jpg",
+                  text: "",
+                },
+
+                {
+                  url: "/loreto/packages/villa-loreto/VillaLoreto_Room1.jpg",
+                  text: "",
+                },
+                {
+                  url: "/loreto/packages/villa-loreto/VillaLoreto_Room2.jpg",
+                  text: "",
+                },
+                {
+                  url: "/loreto/packages/villa-loreto/VillaLoreto_Room4.jpg",
+                  text: "",
+                },
+              ],
+            },
+          ],
+          amenities: [
+            "Four fire-pits on the beach which feature low level lighting to allow Loreto’s night sky to sparkle even more",
+            "Full-service water activities center",
+            "Tennis courts ($)",
+            "18 hole golf course at the Loreto Bay project, 30min. away from the Resort ($)",
+            "Free form, multi-level swimming pools",
+            "Fun hiking trails that lead to awe-inspiring waterfalls at la Sierra de la Giganta ($)",
+            "Restaurants, convenience stores ($), and bars",
+            "Full kitchen",
+            "Full furnishing with finely crafted wood furniture",
+            "LCD televisions",
+            "Marble floors",
+            "Granite countertops",
+            "Spacious 10ft balconies with patio furniture to enjoy the amazing views",
+            "Seafood restaurant that serves the fresh catch of the day",
+          ],
+          location: {
+            map:
+              '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.562303777733!2d-111.2357167843905!3d25.718912083656214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8cdb6209025%3A0x328727e664043480!2sVilla%20del%20Palmar%20at%20The%20Islands%20of%20Loreto!5e0!3m2!1ses-419!2smx!4v1617845743736!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+          },
+          reviews: [
+            {
+              author: "Kathy Lynn Thompson",
+              city: "Salem",
+              comments:
+                "We had some wonderful servers that we appreciated very much! Yasor (spelling ?), Marco, Guillimo and Jorge down on the beach! Ramon at the paddle board station was most helpful and such a gentleman! The gentlemen went out of their way to please. We appreciated every effort they put in. All of the staff was exceptional to us. I'm sure I am leaving some names out. We thank you for provided the best staff to guests as you have.",
+              date: "",
+              rating: 5,
+            },
+            {
+              author: "Craig NICHOLS",
+              city: "Laguna Niguel",
+              comments:
+                "We would like to acknowledge the exceptional customer service provided by YARIZ, MANNY, GIRARDO, CANDELARIO, & SANTIAGO. In fact, the entire restaurant/serving staff was fantastic. We would also like to acknowledge OSCAR TORRES for his gracious efforts. Also, we LOVED your activities team, EDUARDO, ZAZIL, GENESIS, KAREN, DUVIS & RAMON. The shows were enjoyable and made our stay so much fun! CARLOS ZAMORA in Premium Services and OMAR, the shuttle driver, were extremely professional, helpful and wonderful to work with. We would also like to mention that MARIO from Wild Tours was terrific! Our vacation at Villa del Palmar was one of our best ever!!!",
+              date: "",
+              rating: 5,
+            },
+            {
+              author: "Loren Gardner",
+              city: "Sherman Oaks",
+              comments:
+                "We couldn't have been more happy with the food and service we received during our stay. The staff was unbelievable. They were always greeting us with a smile, and many learned our names and greeting us on a first name basis. On our anniversary night at Dazante restaurant they had a placard with our names on it, and brought us dessert with a firework in it and captured that moment on camera for us. I've never been treated better anywhere in my life! At the pool, Manny was exceptional and had another drink (usually 2) ready for me once my current drink was nearing the bottom :) We have already been recommending Villa Del Palmar Loreto to family and friends!",
+              date: "",
+              rating: 5,
+            },
+          ],
+        },
+        {
+          id: 16,
+          name: "Loreto Bay All Inclusive",
+          slug: "loreto-bay-all-inclusive",
+          image: "/loreto/packages/bay/bay-hotel.jpg",
+          includeInHome: false,
+          soldOut: false,
+          nights: 4,
+          adults: 2,
+          children: 2,
+          plan: "All Inclusive",
+          retailPriceUSD: 1261,
+          priceUSD: 599,
+          savings: "53%",
+          headers: [
+            {
+              url: "/loreto/packages/bay/bay_resort.jpg",
+              text: "",
+            },
+            {
+              url: "/loreto/packages/bay/bay-resort-2.jpg",
+              text: "",
+            },
+            {
+              url: "/loreto/packages/bay/bay-resort-3.jpg",
+              text: "",
+            },
+          ],
+          offer: {
+            rating: 5,
+            includes: [
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "All Inclusive plan.",
+              "Stay in a super-comfortable, fully furnished Deluxe Room",
+
+
+            ],
+            description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
+            allInclusive: [
+              "Daily Breakfast, Lunch, and Dinner A-la-Carte.",
+              "Unlimited alcoholic & non-alcoholic drinks.",
+              "Activities(volleyball, shuffle board, pool activities, etc.).",
+              "Non-motorized water sports.",
+            ],
+          },
+          resort: {
+            description:
+              "<p>Loreto Bay Golf Resort & Spa is nestled on the shores of the Mar de Cortes, in the exclusive Nopolo Bay. The Sierra La Giganta Mountains and the vast desert join together to create a magical setting and a heavenly ambiance.</p><p>The beauty of this paradise emerges from each grain of sand, each wave and also from the majestic rock formations that create magnificent scenic views. In this exclusive enclave, you will enjoy the most attentive and sophisticated service.</p><p>We invite you to enjoy with us the nature and beauty of Loreto, Baja California South.</p>",
+            features: [],
+            gallery: [
+              {
+                url: "/loreto/packages/bay/bay-hotel.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/bay/bay-hotel-2.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/bay/bay-hotel-3.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/bay/bay-hotel-4.jpg",
+                text: "",
+              },
+              {
+                url: "/loreto/packages/bay/ bay-hotel-5.jpg",
+                text: "",
+              },
+              {
+                url:
+                  "/loreto/packages/bay/bay-pool.jpg",
+                text: "",
+              },
+              {
+                url:
+                  "/loreto/packages/bay/bay-loreto.jpg",
+                text: "",
+              },
+
+
+            ],
+          },
+          rooms: [
+            {
+              name: "Deluxe Room ",
+              priceUSD: 399,
+              description:
+                "Large and comfortable rooms with a balcony. All the rooms feature oversized bathroom with luxurious amenities.</p>",
+              galleryDescription: "Be our guest and see it for yourself.",
+              gallery: [
+                {
+                  url: "/loreto/packages/bay/bay-room-3.jpg",
+                  text: "",
+                },
+
+                {
+                  url: "/loreto/packages/bay/bay-room-4.jpg",
+                  text: "",
+                },
+                {
+                  url: "/loreto/packages/bay/bay-room-3.jpg",
+                  text: "",
+                },
+                {
+                  url: "/loreto/packages/bay/bay-room-5.jpg",
+                  text: "",
+                },
+              ],
+            },
+          ],
+          amenities: [
+            "Sports Bar",
+            "Pools",
+            "2 Restaurants",
+            "Spa",
+            "Activities",
+            "Loreto Bay Golf Course",
+            "Tennis courts",
+            "Gym",
+          ],
+          location: {
+            map:
+              '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.444087345616!2d-111.35029648255616!3d25.920639399999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86b43d8ec8fc75cf%3A0x4387a1eec45d00e4!2sHotel%20Loreto%20Bay%20Golf%20Resort%20%26%20Spa!5e0!3m2!1ses-419!2smx!4v1617847288802!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+          },
+          reviews: [
+            {
+              author: "Albrecht",
+              city: "USA",
+              comments:
+                "I chose Loreto Bay for a special week-long family holiday and was not disappointed... what a fantastic place! No crowds at the pool or the pool bar, no dirt on the beach, nice quiet rooms with great views and, above and beyond, incredible hospitality. Carlos, Jose Luis and Itzel at reception, Tulio and his team at the restaurant, and every other member of the staff are incredibly friendly and honest people. They organized an exclusive candle-light dinner on the beach and brought me my wallet back after I'd forgotten it on the table",
+              date: "",
+              rating: 5,
+            },
+            {
+              author: "Steve and Family",
+              city: "California",
+              comments:
+                "Loreto Bay Golf Resort was friendly and welcoming. Service was outstanding and the staff was always happy to help. We had one of the best trips as a family and look forward to coming back. Kitchen prepared the Dorado we caught in an amazing fashion. Only thing I had to say is I wish they had ice machines and vending for soft drinks after hours. Other than that we are planning on returning annually as a family. Great job to Carlos and his staff of Victor, Oscar, Eloy, Eduardo and all else that welcomed us every day when we were there. Thanks again",
+              date: "",
+              rating: 5,
+            },
+
+          ],
+        },
       ],
     },
   ],
