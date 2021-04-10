@@ -1,10 +1,10 @@
 <template>
   <div>
     <carousel :content="destination.carousel" :calltoaction="true" />
-    <section class="destination pt-5">
+    <section class="destination pt-3 pt-md-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 mb-5">
+          <div class="col-md-8 mb-3 mb-md-5">
             <ul class="nav nav-pills nav-fill bg-turquoise p-3 rounded">
               <li class="nav-item">
                 <a
@@ -39,7 +39,7 @@
                 >
               </li>
             </ul>
-            <div class="pt-5">
+            <div class="pt-5 px-2 px-md-0">
               <div v-show="tab === 0">
                 <h1 class="pb-4 oh-golds text-dark-green display-5">
                   {{ destination.name }}
@@ -51,7 +51,10 @@
                   What to do in {{ destination.name }}
                 </h1>
                 <span v-html="destination.activities.description"></span>
-                <carousel :content="destination.activities.gallery" :calltoaction="false"></carousel>
+                <carousel
+                  :content="destination.activities.gallery"
+                  :calltoaction="false"
+                ></carousel>
               </div>
               <div v-show="tab === 2">
                 <h1 class="pb-4 oh-golds text-dark-green display-5">
@@ -60,15 +63,17 @@
                 <table class="table">
                   <thead class="bg-dark-green">
                     <tr>
-                      <th>City</th>
-                      <th>Direct flights per day</th>
-                      <th>Time</th>
+                      <th class="align-middle">City</th>
+                      <th class="align-middle text-center">
+                        Direct flights per day
+                      </th>
+                      <th class="align-middle">Time</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr v-for="(flight, f) in destination.flights" :key="f">
                       <td>{{ flight.city }}</td>
-                      <td>{{ flight.flightsPerDay }}</td>
+                      <td class="text-center">{{ flight.flightsPerDay }}</td>
                       <td>{{ flight.time }}</td>
                     </tr>
                   </tbody>
@@ -99,55 +104,17 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-5">
-            <div class="bg-blue rounded-top text-white pt-4 px-4 pb-3 lh-1">
-              <div>Would you like a</div>
-              <div class="h2 fw-bold">Free Vacation</div>
-            </div>
-            <div class="bg-turquoise px-4 py-4">
-              <p>
-                Register to win a Free Vacation, 5 days and 4 nights at Puerto
-                Vallarta, Cabo San Lucas or Loreto.
-              </p>
-              <p>Winner will be notified on January 31</p>
-              <form>
-                <div class="mb-3">
-                  <label class="form-label">First Name</label>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Last Name</label>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    aria-describedby="emailHelp"
-                  />
-                  <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Phone</label>
-                  <input type="text" class="form-control" />
-                </div>
-                <div class="mb-3 text-center">
-                  <button type="button" class="btn btn-green">Submit</button>
-                </div>
-              </form>
-            </div>
+          <div class="col-md-4 mb-5 d-none d-md-block">
+            <free-vacation />
           </div>
         </div>
       </div>
     </section>
     <section id="bestdeals" class="bg-aqua">
-      <div class="container py-5">
+      <div class="container py-4 py-md-5">
         <div class="row">
           <div class="col text-center">
-            <h2 class="pb-4 oh-golds text-dark-green display-5">Best Deals</h2>
+            <h2 class="pb-2 pb-md-4 oh-golds text-dark-green display-5">Best Deals</h2>
           </div>
         </div>
         <div class="row">
@@ -156,7 +123,10 @@
             v-for="pckg in destination.packages"
             :key="pckg.name"
           >
-            <package-card :package="pckg" :destinationslug="destination.slug"></package-card>
+            <package-card
+              :package="pckg"
+              :destinationslug="destination.slug"
+            ></package-card>
           </div>
         </div>
       </div>
@@ -171,6 +141,7 @@
         allowfullscreen
       ></iframe>
     </section>
+    <free-vacation class="d-block d-sm-none mt-3" />
     <why-to-book />
   </div>
 </template>
@@ -179,17 +150,19 @@ import store from "@/store.js";
 import Carousel from "@/components/Carousel.vue";
 import WhyToBook from "@/components/WhyToBook.vue";
 import PackageCard from "@/components/PackageCard.vue";
+import FreeVacation from "@/components/FreeVacation.vue";
 
 export default {
   name: "Destination",
   components: {
     Carousel,
     WhyToBook,
-    PackageCard
+    PackageCard,
+    FreeVacation,
   },
   data() {
     return {
-      tab: 0
+      tab: 0,
     };
   },
   props: {

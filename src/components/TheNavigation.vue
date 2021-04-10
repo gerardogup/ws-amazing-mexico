@@ -1,7 +1,10 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-      <div class="container bg-white" style="z-index: 1100">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow border-bottom"
+      style="z-index: 1020"
+    >
+      <div class="container bg-white">
         <router-link class="navbar-brand" to="/">
           <img
             :src="require('@/assets/images/layout/logo.svg')"
@@ -21,24 +24,31 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mx-auto">
-            <li v-for="destination in destinations" :key="destination.name">
-              <router-link class="nav-link" :to="{
-                name: 'Destination',
-                params: { slug: destination.slug }
-              }">
+          <ul class="navbar-nav mx-auto" @click="collapseMenu()">
+            <li
+              v-for="destination in destinations"
+              :key="destination.name"
+              class="text-center border-bottom"
+            >
+              <router-link
+                class="nav-link"
+                :to="{
+                  name: 'Destination',
+                  params: { slug: destination.slug },
+                }"
+              >
                 {{ destination.name }}
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center border-bottom">
               <a class="nav-link" href="https://blog.amazing-mexico.com"
                 >Blog</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item text-center border-bottom">
               <router-link class="nav-link" to="/faq">FAQs</router-link>
             </li>
-            <li class="nav-item fw-bold">
+            <li class="nav-item fw-bold text-center border-bottom">
               <a
                 class="nav-link"
                 data-bs-toggle="modal"
@@ -59,16 +69,56 @@
         </div>
       </div>
     </nav>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="quoteRequestModal"
+      tabindex="-1"
+      aria-labelledby="quoteRequestModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header pb-1">
+            <h3
+              class="modal-title oh-golds text-dark-green"
+              id="quoteRequestModalLabel"
+            >
+              Request a Quote
+            </h3>
+            <button
+              type="button"
+              class="btn-close mb-2"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <quote-request />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
 import store from "@/store.js";
+import QuoteRequest from '@/components/QuoteRequest.vue'
 
 export default {
   data() {
     return {
       destinations: store.destinations,
     };
+  },
+  components: {
+    QuoteRequest
+  },
+  methods: {
+    collapseMenu() {
+      let menu = document.getElementsByClassName("navbar-toggler")[0];
+      menu.click();
+    },
   },
 };
 </script>

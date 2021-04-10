@@ -1,9 +1,9 @@
 <template>
   <section class="footer py-5">
-    <div class="fixed-bottom bg-white px-3 py-3 shadow-lg lh-1 d-sm-none">
+    <div class="fixed-bottom px-3 py-3 shadow-lg lh-1 d-sm-none bg-blue">
       <a href="tel:+18665015836">
-        <small class="text-dark-green">ANY DOUBT? CALL TOLL FREE</small>
-        <span class="fw-bolder fs-2 d-block text-green">1 866 501 5836</span>
+        <small class="fw-bold text-white">ANY DOUBT? CALL TOLL FREE</small>
+        <span class="fw-bolder fs-2 d-block text-white">1 866 501 5836</span>
       </a>
     </div>
     <div class="container pt-3 pt-md-5">
@@ -23,13 +23,17 @@
         </div>
         <div class="col-md-3 text-white mb-3">
           Copyright @ 2021. Amazing Mexico. All Rights Reserved.
+          <br />Powered by ePlat.
         </div>
         <div class="col-md-2 text-sm-end">
           <a href="https://www.facebook.com/mexicoisamzing">
             <i class="bi-facebook fs-2 me-3 text-white"></i>
           </a>
           <a href="https://www.instagram.com/mexicois.amazing/">
-            <i class="bi-instagram fs-2 text-white"></i>
+            <i class="bi-instagram fs-2 me-3 text-white"></i>
+          </a>
+          <a href="https://twitter.com/MexicoAmazing">
+            <i class="bi-twitter fs-2 text-white"></i>
           </a>
         </div>
       </div>
@@ -64,11 +68,31 @@
         </div>
       </div>
     </div>
+    <img
+      src="/svg/gotop.svg"
+      class="fixed-right btn-scroll"
+      @click="scrollToTop()"
+    />
   </section>
 </template>
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
+};
+</script>
+
 <style scoped>
 .footer {
   background-image: url("../assets/images/layout/footer.jpg");
   background-size: cover;
+}
+.btn-scroll {
+  width: 70px;
+  margin-right: 110px;
+  margin-bottom: 12px;
 }
 </style>

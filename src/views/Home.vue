@@ -40,7 +40,7 @@
     <section class="lookingfor bg-aqua">
       <div class="container py-5">
         <div class="row">
-          <div class="col text-center px-sm-5">
+          <div class="col text-center px-3 px-sm-5">
             <h2 class="mb-4 oh-golds text-dark-green display-5">
               Looking for Vacation Packages in Mexico
             </h2>
@@ -145,7 +145,7 @@ export default {
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 .card-destination > .card-body {

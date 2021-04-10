@@ -2,12 +2,6 @@
   <div id="app">
     <Navigation />
     <router-view :key="$route.path" />
-    <img
-      src="/svg/gotop.svg"
-      style="width: 50px"
-      class="fixed-right"
-      @click="scrollToTop()"
-    />
     <Footer />
   </div>
 </template>
@@ -21,12 +15,7 @@ export default {
   components: {
     Navigation,
     Footer,
-  },
-  methods: {
-    scrollToTop() {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    },
-  },
+  }
 };
 </script>
 <style>
