@@ -181,7 +181,7 @@ export default {
           offer: {
             rating: 4.5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 6 days and 5 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
               "Stay in a beautiful beach hotel, in a Standard Room.",
             ],

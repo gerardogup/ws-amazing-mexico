@@ -40,11 +40,11 @@
                 {{ destination.name }}
               </router-link>
             </li>
-            <li class="nav-item text-center border-bottom">
+            <!-- <li class="nav-item text-center border-bottom">
               <a class="nav-link" href="https://blog.amazing-mexico.com"
                 >Blog</a
               >
-            </li>
+            </li> -->
             <li class="nav-item text-center border-bottom">
               <router-link class="nav-link" to="/faq">FAQs</router-link>
             </li>
