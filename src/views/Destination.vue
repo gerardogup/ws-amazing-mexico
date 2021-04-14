@@ -141,7 +141,7 @@
         allowfullscreen
       ></iframe>
     </section>
-    <free-vacation class="d-block d-sm-none mt-3" />
+    <free-vacation class="d-block d-sm-none mt-3 mx-2" />
     <why-to-book />
   </div>
 </template>
