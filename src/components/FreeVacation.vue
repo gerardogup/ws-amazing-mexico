@@ -9,7 +9,7 @@
         Register to win a Free Vacation, 5 days and 4 nights at Puerto Vallarta,
         Cabo San Lucas or Loreto.
       </p>
-      <p>Winner will be notified on January 31</p>
+      <p>Winner will be notified on {{ nextMonth() }} 1st</p>
       <form
         method="post"
         @submit="saveSweepstake"
@@ -104,6 +104,14 @@ export default {
     };
   },
   methods: {
+    nextMonth() { 
+      var objDate = new Date();
+      objDate.setMonth(objDate.getMonth() + 1);
+
+      var locale = "en-us",
+        month = objDate.toLocaleString(locale, { month: "long" });
+      return month;
+    },
     saveSweepstake(e) {
       let form = e.target;
       if (form.checkValidity() === true) {

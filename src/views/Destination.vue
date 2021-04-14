@@ -119,7 +119,7 @@
         </div>
         <div class="row">
           <div
-            class="col-md-3"
+            class="col-md-3 mb-3"
             v-for="pckg in destination.packages"
             :key="pckg.name"
           >

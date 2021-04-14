@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col text-center">
           <h2 class="pb-4 oh-golds text-dark-green display-5">
-            Why to book with us?
+            Why to book directly with us?
           </h2>
         </div>
       </div>

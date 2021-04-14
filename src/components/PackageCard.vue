@@ -1,30 +1,41 @@
 <template>
   <div
     class="card card-package"
-    :style="`background-image: url('${require(`@/assets/images${ pckg.image }`)}')`"
+    :style="`background-image: url('${require(`@/assets/images${pckg.image}`)}')`"
   >
-    <router-link :to="(destinationslug != undefined ? destinationslug + '/' : '') + pckg.slug">
-    <img src="/svg/sold-out.svg" class="sold-out" alt="Sold Out" v-if="pckg.soldOut">
-    <span class="card-body text-white d-block">
-      <span class="fw-bold fs-3">${{ pckg.priceUSD }}</span>
-      <h5 class="card-title fw-bolder fs-3 mb-0">{{ pckg.name }}</h5>
-      <small class="d-block">{{ pckg.destination }}</small>
-      <span class="fw-bold">{{ pckg.plan }}</span>
-      <span class="d-block text-aqua">
-        {{ pckg.nights + 1 }} days &amp; {{ pckg.nights }} nights
+    <router-link
+      :to="
+        (destinationslug != undefined ? destinationslug + '/' : '') + pckg.slug
+      "
+    >
+      <img
+        src="/svg/sold-out.svg"
+        class="sold-out"
+        alt="Sold Out"
+        v-if="pckg.soldOut"
+      />
+      <span class="card-body text-white d-block">
+        <span class="fw-bold fs-3">${{ pckg.priceUSD }}</span>
+        <span class="card-title">
+          <h5 class="fw-bolder fs-3 d-inline">{{ pckg.name }}</h5>
+        </span>
+        <small class="d-block">{{ pckg.destination }}</small>
+        <span class="fw-bold">{{ pckg.plan }}</span>
+        <span class="d-block text-aqua">
+          {{ pckg.nights + 1 }} days &amp; {{ pckg.nights }} nights
+        </span>
       </span>
-    </span>
     </router-link>
   </div>
 </template>
 <script>
 export default {
-  props: [ 'package', 'destinationslug', 'destination' ],
+  props: ["package", "destinationslug", "destination"],
   data() {
-      return {
-          pckg : this.package
-      }
-  }
+    return {
+      pckg: this.package,
+    };
+  },
 };
 </script>
 <style scoped>
@@ -44,8 +55,10 @@ export default {
 }
 
 .card-package .card-title {
-  margin-top: 200px;
-  padding-right: 40px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-top: 200px;
+  height: 270px;
 }
 
 .sold-out {

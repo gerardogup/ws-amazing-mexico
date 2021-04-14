@@ -1,6 +1,6 @@
 <template>
   <section class="footer py-5">
-    <div class="fixed-bottom px-3 py-3 shadow-lg lh-1 d-sm-none bg-blue">
+    <div class="fixed-bottom px-3 py-4 shadow-lg lh-1 d-sm-none bg-blue">
       <a href="tel:+18665015836">
         <small class="fw-bold text-white">ANY DOUBT? CALL TOLL FREE</small>
         <span class="fw-bolder fs-2 d-block text-white">1 866 501 5836</span>
@@ -70,7 +70,7 @@
     </div>
     <img
       src="/svg/gotop.svg"
-      class="fixed-right btn-scroll"
+      class="fixed-right btn-scroll d-none d-md-block"
       @click="scrollToTop()"
     />
   </section>
@@ -92,7 +92,7 @@ export default {
 }
 .btn-scroll {
   width: 70px;
-  margin-right: 110px;
-  margin-bottom: 12px;
+  margin-right: 75px;
+  margin-bottom: 17px;
 }
 </style>
