@@ -134,10 +134,24 @@
           >
         </div>
       </div>
-      <div class="row">
-        <div class="col" v-for="c in form.children" :key="c">
-          <label class="form-label">Child {{ c }}</label>
-          <select v-model="childrenAges"></select>
+      <div class="row row-cols-5">
+        <div class="col mb-2" v-for="(child, c) in childrenAges" :key="c">
+          <label class="form-label">Child {{ c + 1 }}</label>
+          <select v-model="child.age" class="form-control">
+            <option value="0">less than a year</option>
+            <option value="1">1 year old</option>
+            <option value="2">2 years old</option>
+            <option value="3">3 years old</option>
+            <option value="4">4 years old</option>
+            <option value="5">5 years old</option>
+            <option value="6">6 years old</option>
+            <option value="7">7 years old</option>
+            <option value="8">8 years old</option>
+            <option value="9">9 years old</option>
+            <option value="10">10 years old</option>
+            <option value="11">11 years old</option>
+            <option value="12">12 years old</option>
+          </select>
         </div>
       </div>
       <div class="row">
@@ -181,7 +195,19 @@ export default {
       form: this.initialValues(),
       saved: false,
       waiting: false,
+      childrenAges: [],
     };
+  },
+  watch: {
+    "form.children": function (newVal) {
+      this.childrenAges = [];
+      for (let i = 0; i < newVal; i++) {
+        this.childrenAges.push({
+          childrenIndex: i,
+          age: null,
+        });
+      }
+    },
   },
   methods: {
     saveRequest(e) {
@@ -192,10 +218,15 @@ export default {
           "https://developers.eplat.com/api/webhooks/incoming/genericjson/newlead?code=80f32f6123104d09a72c000047564e51";
         var data = this.form;
         data.notes = "";
-        data.notes += `Adults: ${this.form.aduults}<br>`;
+        data.notes += `Adults: ${this.form.adults}<br>`;
         data.notes += `Children: ${this.form.children}<br>`;
-        data.notes += `Comments: ${this.form.comments}<br>`;
+        data.notes += "Children Ages: ";
 
+        this.childrenAges.forEach((child) => {
+          data.notes += child.childrenIndex + 1 + ": " + child.age + ", ";
+        });
+
+        data.notes += `<br>Comments: ${this.form.comments}`;
         fetch(url, {
           method: "POST",
           body: JSON.stringify(data),
