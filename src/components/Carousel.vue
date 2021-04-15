@@ -12,7 +12,7 @@
         :key="i"
         :data-bs-target="'#' + id"
         :data-bs-slide-to="i"
-        :class="{ 'active' : i == 0 }"
+        :class="{ active: i == 0 }"
       ></button>
     </div>
     <div class="carousel-inner">
@@ -25,6 +25,7 @@
         <img
           :src="require(`@/assets/images${item.url}`)"
           class="d-block w-100"
+          :class="{ odd: !isEven(i), even: isEven(i) }"
           :alt="item.alt"
         />
         <div class="carousel-caption d-none d-md-block">
@@ -68,12 +69,15 @@ export default {
   },
   watch: {
     index(newVal) {
-      let indicator = document.getElementById(this.id+newVal);
+      let indicator = document.getElementById(this.id + newVal);
       const e = new Event("click");
       indicator.dispatchEvent(e);
     },
   },
   methods: {
+    isEven(num) {
+      return num % 2 != 0;
+    },
     randomString(length) {
       const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz".split(
         ""
@@ -92,3 +96,50 @@ export default {
   },
 };
 </script>
+<style scoped>
+@-webkit-keyframes zoom-in {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.3, 1.3);
+  }
+}
+
+@keyframes zoom-in {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@-webkit-keyframes zoom-out {
+  from {
+    -webkit-transform: scale(1.3, 1.3);
+  }
+  to {
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+@keyframes zoom-out {
+  from {
+    transform: scale(1.3, 1.3);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.carousel-inner .carousel-item > img.odd {
+  -webkit-animation: zoom-out 20s;
+  animation: zoom-out 20s;
+}
+
+.carousel-inner .carousel-item > img.even {
+  -webkit-animation: zoom-in 20s;
+  animation: zoom-in 20s;
+}
+</style>

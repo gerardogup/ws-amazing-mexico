@@ -30,17 +30,27 @@ a {
   font-weight: bold;
 }
 
+div#eplat-chat {
+  z-index: 1040;
+  margin-right: -40px;
+  margin-bottom: -12px;
+}
+
 .fixed-right {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 1030;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-expand-lg {
   height: 120px;
+}
+
+.navbar-nav .nav-link.active {
+  background: #e5eee9;
 }
 
 .text-aqua {
@@ -77,10 +87,21 @@ ul.green-list {
 }
 
 ul.green-list li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #aed138; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media (min-width: 576px) {
+  .navbar-nav .nav-link {
+    padding: 48px 7px;
+  }
+  div#eplat-chat {
+    z-index: 1040;
+    margin-right: -40px;
+    margin-bottom: 0;
+  }
 }
