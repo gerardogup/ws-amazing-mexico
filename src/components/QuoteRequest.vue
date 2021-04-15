@@ -134,7 +134,12 @@
           >
         </div>
       </div>
-
+      <div class="row">
+        <div class="col" v-for="c in form.children" :key="c">
+          <label class="form-label">Child {{ c }}</label>
+          <select v-model="childrenAges"></select>
+        </div>
+      </div>
       <div class="row">
         <div class="col-12 mb-3">
           <label class="form-label">Comments</label>
@@ -233,6 +238,7 @@ export default {
         departureDate: null,
         adults: null,
         children: null,
+        childrenAges: [],
         comments: null,
         notes: null,
       };

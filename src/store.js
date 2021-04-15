@@ -1,4 +1,7 @@
 export default {
+  website: {
+    phone: "866 883 0573",
+  },
   home: {
     carousel: [
       {
@@ -969,30 +972,30 @@ export default {
     },
     {
       id: 2,
-      name: "Cabo San Lucas",
-      slug: "cabo-san-lucas",
+      name: "Los Cabos",
+      slug: "los-cabos",
       image: "/home/destination-cabo-san-lucas.jpg",
       video: "https://www.youtube.com/embed/tQILXCyLpHg?controls=0",
       carousel: [
         {
           url: "/cabo-san-lucas/destination/los-cabos-arco.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-cabo-pulmo.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-camellos.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-kayak.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos_ballenas.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
       ],
       description:
@@ -1019,7 +1022,7 @@ export default {
           },
           {
             url: "/cabo-san-lucas/activities/activities-5.jpg",
-            text: "Camel Ridind",
+            text: "Camel Riding",
           },
           {
             url: "/cabo-san-lucas/activities/activities-6.jpg",
