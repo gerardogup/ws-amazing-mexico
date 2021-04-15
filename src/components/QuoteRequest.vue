@@ -234,14 +234,13 @@ export default {
             "Content-Type": "application/json",
           },
         })
-          .then((res) => {
+          .then(() => {
             this.resetValues();
             this.waiting = false;
             this.saved = true;
-            gtag_report_conversion_qr();
+            window.gtag_report_conversion_qr();
           })
-          .catch((error) => {
-            console.error("Error:", error);
+          .catch(() => {
             this.waiting = false;
           });
       }

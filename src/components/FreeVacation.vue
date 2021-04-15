@@ -127,24 +127,23 @@ export default {
             "Content-Type": "application/json",
           },
         })
-          .then((res) => {
+          .then(() => {
             this.resetValues();
             this.waiting = false;
             this.saved = true;
-            gtag_report_conversion_fv();
+            window.gtag_report_conversion_fv();
           })
-          .catch((error) => {
-            console.error("Error:", error);
+          .catch(() => {
             this.waiting = false;
           });
       }
       form.classList.add("was-validated");
       e.preventDefault();
     },
-    validEmail(email) {
-      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      return re.test(email);
-    },
+    // validEmail(email) {
+    //   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //   return re.test(email);
+    // },
     resetValues() {
       this.form = this.initialValues();
       document.getElementById(this.id).classList.remove("was-validated");
