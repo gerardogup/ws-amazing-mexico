@@ -34,8 +34,7 @@
               >Worry Free Booking</span
             >
             <span class="text-dark-green">
-              Book Now, decide dates later.<br />
-              No fees to modifying dates.
+              Book the Special Now, <br>  and Decide Dates Later.
             </span>
           </div>
         </div>

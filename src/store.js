@@ -189,7 +189,7 @@ export default {
               "Stay in a beautiful beach hotel, in a Standard Room.",
             ],
             description:
-              "<p><em>*Additional nights are available starting at $225USD.</em></p><p>Las Palmas by The Sea features comfortable accommodations and modern facilities.The friendly atmosphere, fine accommodations and affordable prices, make this hotel, the ideal place for your next family vacation or romantic honeymoon.</p>",
+              "<p><em>*Additional nights are available starting at $229USD.</em></p><p>Las Palmas by The Sea features comfortable accommodations and modern facilities.The friendly atmosphere, fine accommodations and affordable prices, make this hotel, the ideal place for your next family vacation or romantic honeymoon.</p>",
             allInclusive: [
               "Luxury Accommodations",
               "Daily Breakfast, Lunch, and Dinner at Aire del Mar Restaurant",
@@ -266,7 +266,7 @@ export default {
           rooms: [
             {
               name: "Standard Room",
-              priceUSD: 299,
+              priceUSD: 499,
               description:
                 "<p>These are Garden or Mountain View Room. We know when you are on vacation having a cool and comfortable room is very important so we offer: King size bed or two full beds. Color T.V with cable and remote control. Telephone Air Conditioning Hair dryer Bath & Shower Safe-deposit box.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -386,7 +386,7 @@ export default {
               "All Inclusive plan.",
             ],
             description:
-              "<p>Treat yourself to an unequalled all-inclusive resort experience at the best location in Puerto Vallarta.</p><p>Beach, sunshine, tropical setting, vibrant spaces with color and joy, we provide everything you’re looking for. A breath-taking place to relax and enjoy a fun-filled getaway.</p><p>We invite you to enjoy its all-inclusive program with its excellent cuisine, as well as numerous activities suitable for the entire family. Our 234 rooms and suites include all of the comforts and amenities you’ll require for an unforgettable stay, regardless of the purpose of your trip.</p>",
+              "<p><em>*Additional nights are available starting at $229USD.</em></p><p>Treat yourself to an unequalled all-inclusive resort experience at the best location in Puerto Vallarta.</p><p>Beach, sunshine, tropical setting, vibrant spaces with color and joy, we provide everything you’re looking for. A breath-taking place to relax and enjoy a fun-filled getaway.</p><p>We invite you to enjoy its all-inclusive program with its excellent cuisine, as well as numerous activities suitable for the entire family. Our 234 rooms and suites include all of the comforts and amenities you’ll require for an unforgettable stay, regardless of the purpose of your trip.</p>",
             allInclusive: [
               "All Meals Daily, including Breakfast, Lunch, and Dinner",
               "Snacks Served All Day",
@@ -493,7 +493,7 @@ export default {
           rooms: [
             {
               name: "Standard Room",
-              priceUSD: 399,
+              priceUSD: 499,
               description:
                 "<p>Comfortable and spacious rooms with a fresh, mexican contemparoary style, and one king size or 2 double beds.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -561,7 +561,7 @@ export default {
             },
           ],
         },
-        {
+        /*{
           id: 3,
           name: "Barcelo All Inclusive",
           slug: "bercelo-all-inclusive",
@@ -703,7 +703,7 @@ export default {
           rooms: [
             {
               name: "Deluxe Suite:",
-              priceUSD: 499,
+              priceUSD: 699,
               description:
                 "<p>The Deluxe Suite rooms are perfect to spend a luxury vacation. Its 732 ft² will make your stay a perfect place to enjoy to the utmost comfort. </p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -761,7 +761,7 @@ export default {
               rating: 4,
             },
           ],
-        },
+        },*/
         {
           id: 4,
           name: "Melia All Inclusive",
@@ -796,7 +796,8 @@ export default {
               "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
             ],
-            description: "",
+            description:
+              "<p><em>*Additional nights are available starting at $229USD.</em></p>",
             allInclusive: [
               "Unlimited Meals",
               "Unlimited Alcoholic and Non-Alcoholic Beverages, Premium Drinks Are Available with Extra Charge",
@@ -891,7 +892,7 @@ export default {
           rooms: [
             {
               name: "Deluxe Suite:",
-              priceUSD: 499,
+              priceUSD: 599,
               description:
                 "<p>Enjoy views of lush, tropical flora and fauna as your private balcony gives way to a stunning garden view. Rooms are brightly decorated and furnished for relaxing stays.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -963,6 +964,210 @@ export default {
               comments:
                 "Thank you once again to our Melia family, even though things looked different this year, one thing that always stays consistent is the amazing customer service from staff. We love these amazing team members and are always greeted with smiles and a happy Hola! From breakfast service from Christian, to pool service from Jose, Paulo and Victor, to the amazing activity director Freddy and evening cocktails from Alex, we were always very well taken care of. We hate to leave and always look forward to returning to our PV family. Muchas gracias, an excellent stay.",
               date: "November 2020",
+              rating: 5,
+            },
+          ],
+        },
+        {
+          id: 4,
+          name: "Occidental All Inclusive",
+          slug: "occidental-all-inclusive",
+          image: "/puerto-vallarta/packages/occidental/occidental-hotel.jpg",
+          includeInHome: false,
+          soldOut: false,
+          nights: 4,
+          adults: 2,
+          children: 2,
+          plan: "All Inclusive",
+          retailPriceUSD: 1264,
+          priceUSD: 599,
+          savings: "53%",
+          headers: [
+            {
+              url: "/puerto-vallarta/packages/occidental/occidental-resort.jpg",
+              text: "",
+            },
+            {
+              url: "/puerto-vallarta/packages/occidental/occidental-resort-2.jpg",
+              text: "",
+            },
+            {
+              url: "/puerto-vallarta/packages/occidental/occidental-resort-3.jpg",
+              text: "",
+            },
+          ],
+          offer: {
+            rating: 5,
+            includes: [
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "All Inclusive plan.",
+            ],
+            description:
+              "<p><em>*Additional nights are available starting at $229USD.</em></p>",
+            allInclusive: [
+              "Unlimited Meals",
+              "Welcome cocktail",
+              "Breakfast and dinner in a total of 5 restaurants",
+              "Currency exchange in the reception area",
+              
+            ],
+          },
+          resort: {
+            description:
+              "<p>The Occidental Nuevo Vallarta***** (5-star) hotel is an all inclusive resort located in a privileged enclave amidst the stunning scenery of the Riviera Nayarit, where in the same morning it is possible to enjoy an idyllic beach and the best shopping and dining area. Located just 25 minutes from Puerto Vallarta International Airport, it is an easily accessible resort.</p><p>The rooms, distributed over 7 floors, have been designed and equipped in a sophisticated manner, to offer guests an unbeatable stay and include services such as room service, 24-hour reception and free parking at the hotel.</p><p>t has a variety of activities and excursions for all ages and tastes, including water sports such as diving and canoeing.</p><p>Gastronomy, within the All Inclusive program, has equally great prominence in the daily schedule, thanks to the hotel’s 3 restaurants, and its proximity to the famous local fine dining in nearby Puerto Vallarta.</p><p>The Occidental Nuevo Vallarta has a particularly attentive staff, to ensure a pleasant stay while enjoying the privilege of an idyllic setting where the beach has the leading role.</p>",
+            features: [
+              {
+                feature: "Los Olivos",
+                description:
+                  "<p>Magnificent à la carte restaurant with à la carte menu Italian food.Requires booking. A dress code applies. Restricted opening times for children under 12 years of age</p>",
+              },
+              {
+                feature: "El Mariachi",
+                description:
+                  "<p>À la carte restaurant overlooking the sea. A laid-back place to enjoy delicious sandwiches without stopping your fun.The perfect option for an à la carte Mexican specialty dinner.</p>",
+              },
+              {
+                feature: "Tokyo",
+                description:
+                  "<p>Japanese restaurant à la carte with teppanyaki table and sushi bar.Requires booking. A dress code applies. Restricted opening times for children under 12 years of age</p>",
+              },
+              {
+                feature: "Royal Level Restaurant",
+                description:
+                  "<p>A gourmet restaurant perfect for the most discerning palates. À la carte menu offered. Exclusive to Royal Level guests.</p><p>Requires booking. A dress code applies. Restricted opening times for children under 12 years of age.</p>",
+              },
+              {
+                feature: "Pool Bar",
+                description:
+                  "<p>A relaxed bar and a perfect place to enjoy a nice drink or refreshing cocktail.</p>",
+              },
+              {
+                feature: "Snack Bar",
+                description:
+                  "<p>The snack Bar offers snacks and fast food and is easily designed. No restrictions</p>",
+              },
+              {
+                feature: "Loung Bar",
+                description:
+                  "<p>Is located next to the lobby</p>",
+              },
+              
+            ],
+            gallery: [
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel-1.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel-2.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel-3.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel-4.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-hotel-5.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-kids.jpg",
+                text: "",
+              },
+              {
+                url: "/puerto-vallarta/packages/occidental/occidental-beach.jpg",
+                text: "",
+              },
+            ],
+          },
+          rooms: [
+            {
+              name: "Deluxe Suite:",
+              priceUSD: 599,
+              description:
+                "<p>Enjoy views of lush, tropical flora and fauna as your private balcony gives way to a stunning garden view. Rooms are brightly decorated and furnished for relaxing stays.</p>",
+              galleryDescription: "Be our guest and see it for yourself.",
+              gallery: [
+                {
+                  url: "/puerto-vallarta/packages/melia/melia-room.jpg",
+                  text: "",
+                },
+                {
+                  url: "/puerto-vallarta/packages/melia/melia-room-2.jpg",
+                  text: "",
+                },
+                {
+                  url: "/puerto-vallarta/packages/melia/melia-room-3.jpg",
+                  text: "",
+                },
+                {
+                  url: "/puerto-vallarta/packages/melia/melia-room-4.jpg",
+                  text: "",
+                },
+              ],
+            },
+          ],
+          amenities: [
+            "Free parking",
+            "Adult pool",
+            "Heated pool",
+            "Special diet menus",
+            "Tennis court",
+            "Fishing",
+            "Facial treatments",
+            "Children Activities (Kid / Family Friendly)",
+            "Full body massage",
+            "Currency exchange",
+            "Sun loungers / beach chairs",
+            "Butler service",
+            "24-hour front desk",
+            "Laundry service",
+            "Fitness Center with Gym / Workout Room",
+            "Babysitting",
+            "Hot tub",
+            "Outdoor pool",
+            "Evening entertainment",
+            "Karaoke",
+            "Kids club",
+            "Indoor play area for children",
+            "Concierge",
+            "Sun umbrellas",
+          ],
+          location: {
+            map:
+              '<<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.374747633944!2d-105.2986725489438!3d20.69500170439503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842146a46e46544f%3A0x5d68ca51f9ff56e9!2sOccidental%20Nuevo%20Vallarta!5e0!3m2!1ses-419!2smx!4v1618461829583!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+          },
+          reviews: [
+            {
+              author: "Kai M",
+              city: "",
+              comments:
+                "<p>This place has so many fun things and great service! Erick, a worker there is very kind and is someone you want to be around. The food there is good and there are local vendors for things like snacks and fun stuff like jewelry. Everything about this hotel is amazing and is perfect for a first trip to Mexico.</p>",
+              date: "April 2021",
+              rating: 5,
+            },
+            {
+              author: "Jaime D ",
+              city: "",
+              comments:
+                "The Occidental has everything you need for a quiet and relaxing vacation. The service here was amazing! All employees were very helpful and attended to us very well. It was a relaxing trip. Thank you, Luis, for being so attentive!",
+              date: "March 2021",
+              rating: 5,
+            },
+            {
+              author: "Beata S",
+              city: "Chicago",
+              comments:
+                "My mother and I love this resort - it is family friendly while still maintaining activities and experiences for adults only as well. She has been coming here for 20 years and will not go anywhere else! The cleanliness is exceptional and the staff accomodates above and beyond. Special thanks to Jessica and Vicente for their energy as the Entertainment/Activity staff, as well as Luis Fernando, David, Erick, and all of the other Restaurant staff that assisted us during our stay. Gracias! ~ Beata and Fran from Chicago",
+              date: "March 2021",
               rating: 5,
             },
           ],
@@ -1121,7 +1326,8 @@ export default {
               "Beds With Dazzling White, Feather Pillows, Ultra Plush Duvet, White Luxury Bed Linens, and Latest Technology.",
               "Located On A Spectacular Sandy Beach Just Minutes from Downtown.",
             ],
-            description: "",
+            description:
+              "<p><em>*Additional nights are available starting at $229USD.</em></p>",
             allInclusive: [
               "Limitless access to gourmet a la carte dining options without reservations required",
               "Unlimited international and domestic top-shelf spirits",
@@ -1194,7 +1400,7 @@ export default {
           rooms: [
             {
               name: "Standard Room",
-              priceUSD: 499,
+              priceUSD: 599,
               description:
                 "1 king or 2 double beds, full bathroom with tub, private terrace, desert or garden view, safety deposit box, cable TV and DVD player, fully equipped kitchenette. Guest rooms and suites are decorated in a striking, contemporary European design, with dark woods, plush white bedding and curtains and red accents for a touch of traditional Mexico. Living spaces feature contemporary earth tones.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -1327,7 +1533,7 @@ export default {
               "Stay in a luxury Superior Room.",
             ],
             description:
-              "<p><em>*Additional nights are available starting at $275USD.</em></p>",
+              "<p><em>*Additional nights are available starting at $229USD.</em></p>",
             allInclusive: [
               "5 restaurants including ",
               "2 a la carte experiences",
@@ -1382,7 +1588,7 @@ export default {
           rooms: [
             {
               name: "SSuperior Room",
-              priceUSD: 499,
+              priceUSD: 599,
               description:
                 "<p>The spacious, bright Superior rooms measure 495 ft² and feature a cheerful interior design and a welcoming terrace with views over the stunning gardens. They are a perfect space for couples or families who want to enjoy a comfortable stay at the beach. </p><p>These rooms feature a wide range of quality conveniences and facilities to fill your stay with pleasant sensations.</p><p>These rooms feature a wide range of quality conveniences and facilities to fill your stay with pleasant sensations.</p><p>Maximum room capacity:4 people (combinations of 3 adults and one child, or 2 adults and 2 children)</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -1571,9 +1777,9 @@ export default {
           adults: 2,
           children: 2,
           plan: "All Inclusive",
-          retailPriceUSD: 1605,
+          retailPriceUSD: 2000,
           priceUSD: 599,
-          savings: "63%",
+          savings: "71%",
           headers: [
             {
               url: "/mayan-riviera/packages/ocean-paradise/ocean-resort-2.jpg",
@@ -1598,7 +1804,8 @@ export default {
               "Beds With Dazzling White, Feather Pillows, Ultra Plush Duvet, White Luxury Bed Linens, and Latest Technology.",
               "Located On A Spectacular Sandy Beach Just Minutes from Downtown.",
             ],
-            description: "",
+            description:
+              "<em>Additional nights are available starting at $229USD.</em>",
             allInclusive: [
               "At Ocean Riviera Paradise, guests can relax without having to worry about a thing – 24 hours a day.",
               "Meals, national and international alchool, cocktails and snacks.",
@@ -1712,10 +1919,10 @@ export default {
           },
           rooms: [
             {
-              name: "Standard Room",
-              priceUSD: 499,
+              name: "Daisy Junior Suite",
+              priceUSD: 599,
               description:
-                "<p>Each of these areas feature modern rooms decorated in a contemporary design with maritime touches. They are equipped with everything you need for a pleasant stay.</p><p>The rooms at the Ocean Riviera Paradise are spread across 2 different areas of the hotel: Daisy and the Eden.</p><p>Junior Suites: large, bright rooms with garden views. These have a King Size bed (up to 3 people) or two double beds (up to 4 people) as well as a lounge with sofa bed.</p>",
+                "<p>Daisy Junior Suite is located in front of the water park for children and right next to the main buffet restaurant. The max capacity for this unit is 4 adults and 1 children. It can be garden or pool view based on availability.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
                 {
@@ -1924,7 +2131,7 @@ export default {
           rooms: [
             {
               name: "Deluxe Room",
-              priceUSD: 499,
+              priceUSD: 599,
               description:
                 "<p>Spacious room with 2 double beds or 1 king size bed, elegant and finely furnished. From the balcony or terrace you can enjoy marvelous views of the beautiful garden surroundings.</p><ul> <li>Maximum occupancy: 4 people</li><li>Balcony/Terrace of 7m2</li><li>Folding extra beds allowed: 1/li><li>Room size: 35m2</li><li>Bed type: 2 double beds or 1 king size bed</li></ul>",
 
@@ -2031,7 +2238,7 @@ export default {
           slug: "xpu-ha-resort-all-inclusive",
           image: "/mayan-riviera/packages/xpu-ha/xpu-ha-pool-2.jpg",
           includeInHome: false,
-          soldOut: false,
+          soldOut: true,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2349,7 +2556,7 @@ export default {
               "Complimentary fully staffed Kids Club with all day activities. Nannie and babysitting services available for an extra charge.",
             ],
             description:
-              "<p><em>Additional nights are available starting at $249USD.</em></p>",
+              "<p><em>*Additional nights are available starting at $229USD.</em></p>",
             allInclusive: [
               "Beach Front with expansive private beach area",
               "Buffet locations are subject to change based on season.",
@@ -2396,7 +2603,6 @@ export default {
                 description: "<p><em>Cuisine:</em> Snacks</p>",
               },
             ],
-
             gallery: [
               {
                 url: "/cancun/packages/palmar/palmar-pool.jpg",
@@ -2459,17 +2665,13 @@ export default {
           rooms: [
             {
               name: "One Bedroom Suite",
-              nights: 5,
-              priceUSD: 499,
+              nights: 4,
+              priceUSD: 599,
               description:
-                "<p>Enjoy stunning views of either palm thronged gardens or the mesmerizing Caribbean Sea from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family.</p><p>Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to four guests and boasts a large flat screen TV.</p>",
+                "<p>Enjoy stunning views of palm thronged gardens from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family. Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to 4 people and boasts a large flat screen TV. You will not be disappointed as this is 4 times larger than a normal hotel room with 2 bathrooms</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
-                {
-                  url: "/cancun/packages/palmar/palmar-room.jpg",
-                  text: "",
-                },
-
+               
                 {
                   url: "/cancun/packages/palmar/palmar-room-2.jpg",
                   text: "",
@@ -2478,16 +2680,48 @@ export default {
                   url: "/cancun/packages/palmar/palmar-room-3.jpg",
                   text: "",
                 },
+              
                 {
-                  url: "/cancun/packages/palmar/palmar-room-4.jpg",
+                  url: "/cancun/packages/palmar/palmar-room-8.jpg",
                   text: "",
                 },
+                {
+                  url: "/cancun/packages/palmar/palmar-room-9.jpg",
+                  text: "",
+                },
+                {
+                  url: "/cancun/packages/palmar/palmar-room-7A.jpg",
+                  text: "",
+                },
+              ],
+            },
+            {
+              name: "Deluxe Suite",
+              nights: 5,
+              priceUSD: 599,
+              description:
+                "<p>Enjoy stunning views of either palm thronged gardens or the mesmerizing Caribbean Sea from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family.</p><p>Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to four guests and boasts a large flat screen TV.</p>",
+              galleryDescription: "Be our guest and see it for yourself.",
+              gallery: [
+              
                 {
                   url: "/cancun/packages/palmar/palmar-room-5.jpg",
                   text: "",
                 },
                 {
                   url: "/cancun/packages/palmar/palmar-room-6.jpg",
+                  text: "",
+                },
+                {
+                  url: "/cancun/packages/palmar/palmar-room-11.jpg",
+                  text: "",
+                },
+                {
+                  url: "/cancun/packages/palmar/palmar-room-12.jpg",
+                  text: "",
+                },
+                {
+                  url: "/cancun/packages/palmar/palmar-room-13.jpg",
                   text: "",
                 },
                 {
@@ -2577,7 +2811,7 @@ export default {
           slug: "cancun-lite-all-inclusive",
           image: "/cancun/packages/lite/lite-pool-2.jpg",
           includeInHome: false,
-          soldOut: false,
+          soldOut: true,
           nights: 4,
           adults: 2,
           children: 2,
@@ -2655,7 +2889,7 @@ export default {
           rooms: [
             {
               name: "Standard Room",
-              priceUSD: 399,
+              priceUSD: 499,
               description:
                 "<p>All rooms are air-conditioned with private balcony, king size / two double beds,cable TV, direct-dial telephone ($), mini-bar ($), safety-deposit box ($), internet access ($), hair dryer, radio alarm clock and amenities</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -2841,7 +3075,7 @@ export default {
           rooms: [
             {
               name: "Standard Room",
-              priceUSD: 399,
+              priceUSD: 499,
               description:
                 "<p>Rooms are located throughout the two buildings of Oasis Palm. All rooms are air-conditioned with private bath, 2 double beds, cable TV, direct-dial telephone ($), mini-bar ($), safety-deposit box ($), internet access ($), hair dryer, radio alarm clock and amenities</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -3107,7 +3341,7 @@ export default {
           rooms: [
             {
               name: "Deluxe Room",
-              priceUSD: 399,
+              priceUSD: 599,
               description:
                 "<p>Deluxe Rooms feature beautiful decor and marble throughout. All rooms provide individually controlled air-conditioning, a luxury private bath with marble countertops and shower/tub combos, a king size bed or two double beds, a small table and two chairs, a sofa, blackout drapes, 42-inch flat screen TV with cable and PPV [pay-per-view] service, direct-dial telephone, mini-bar with water, soft drinks and beer, safety-deposit box, Wi-Fi access, daily housekeeping, hair dryer, radio alarm clock, iPod charger, spa quality amenities, and complimentary toiletries.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -3204,7 +3438,7 @@ export default {
             },
           ],
         },
-        {
+        /*{
           id: 14,
           name: "Cancun Grand",
           slug: "cancun-grand-all-inclusive",
@@ -3407,7 +3641,7 @@ export default {
               rating: 5,
             },
           ],
-        },
+        },*/
       ],
     },
     {
@@ -3473,7 +3707,6 @@ export default {
           flightsPerDay: 1,
           time: "2 hrs 04 min",
         },
-
       ],
       weather: {
         description:
@@ -3537,9 +3770,9 @@ export default {
               "All Inclusive plan.",
               "Stay in a super-comfortable, fully furnished Deluxe Suite with either two double or one queen size beds and balcony.",
               "Complimentary fully staffed Kids Club with all day activities. Nannie and babysitting services available for an extra charge.",
-
             ],
-            description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
+            description:
+              "<p><em>Additional nights are available starting at $235USD.</em></p>",
             allInclusive: [
               "Breakfast: Enjoy a breakfast buffet and/or a la carte meal at the Market Restaurant",
               "Lunch: At the Market Restaurant, at Casa Mia, and at Clubhouse ",
@@ -3553,7 +3786,7 @@ export default {
           },
           resort: {
             description:
-              "<p>The hotel epitomizes luxury within a small town while also offering complete privacy and every modern touch. The perfect place for everyone from honeymooners to large families.</p><p>The resort features 3,600 acres of unspoiled beauty. Boasting three restaurants and 20,000 square feet of turtle-shaped pools,it is minutes away from Downtown Islands of Loreto, extraordinary beaches, and world class golf courses.</p><p>Our restaurants are not limited to just extraordinary Mexican food; featuring restaurants that serve delicious steaks to fine Italian food that tempts every palate. You can even cook up dinner your own room in the private \"gourmet chef's kitchen\". Naturally, all the amenities that guests have come to expect are here too.</p>",
+              '<p>The hotel epitomizes luxury within a small town while also offering complete privacy and every modern touch. The perfect place for everyone from honeymooners to large families.</p><p>The resort features 3,600 acres of unspoiled beauty. Boasting three restaurants and 20,000 square feet of turtle-shaped pools,it is minutes away from Downtown Islands of Loreto, extraordinary beaches, and world class golf courses.</p><p>Our restaurants are not limited to just extraordinary Mexican food; featuring restaurants that serve delicious steaks to fine Italian food that tempts every palate. You can even cook up dinner your own room in the private "gourmet chef\'s kitchen". Naturally, all the amenities that guests have come to expect are here too.</p>',
             features: [],
             gallery: [
               {
@@ -3577,8 +3810,7 @@ export default {
                 text: "",
               },
               {
-                url:
-                  "/loreto/packages/villa-loreto/VillaLoreto_Restl.jpg",
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Restl.jpg",
                 text: "",
               },
               {
@@ -3590,15 +3822,13 @@ export default {
                 text: "",
               },
               {
-                url:
-                  "/loreto/packages/villa-loreto/VillaLoreto_Golf.jpg",
+                url: "/loreto/packages/villa-loreto/VillaLoreto_Golf.jpg",
                 text: "",
               },
               {
                 url: "/loreto/packages/villa-loreto/VillaLoreto_Gym.jpg",
                 text: "",
               },
-
             ],
           },
           rooms: [
@@ -3710,10 +3940,9 @@ export default {
               "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
               "Stay in a super-comfortable, fully furnished Deluxe Room",
-
-
             ],
-            description: "<p><em>Additional nights are available starting at $235USD.</em></p>",
+            description:
+              "<p><em>Additional nights are available starting at $235USD.</em></p>",
             allInclusive: [
               "Daily Breakfast, Lunch, and Dinner A-la-Carte.",
               "Unlimited alcoholic & non-alcoholic drinks.",
@@ -3747,17 +3976,13 @@ export default {
                 text: "",
               },
               {
-                url:
-                  "/loreto/packages/bay/bay-pool.jpg",
+                url: "/loreto/packages/bay/bay-pool.jpg",
                 text: "",
               },
               {
-                url:
-                  "/loreto/packages/bay/bay-loreto.jpg",
+                url: "/loreto/packages/bay/bay-loreto.jpg",
                 text: "",
               },
-
-
             ],
           },
           rooms: [
@@ -3819,7 +4044,6 @@ export default {
               date: "",
               rating: 5,
             },
-
           ],
         },
       ],
