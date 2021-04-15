@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="room" v-for="(room, r) in rooms" :key="r">
+    <div class="room mb-4" v-for="(room, r) in rooms" :key="r">
       <span class="float-end text-end">
         <span class="h2 fw-bold text-blue">${{ room.priceUSD }}</span>
         <small class="d-block" v-if="room.nights"
