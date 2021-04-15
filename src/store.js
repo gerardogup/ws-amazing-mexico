@@ -1,4 +1,7 @@
 export default {
+  website: {
+    phone: "866 883 0573",
+  },
   home: {
     carousel: [
       {
@@ -968,30 +971,30 @@ export default {
     },
     {
       id: 2,
-      name: "Cabo San Lucas",
-      slug: "cabo-san-lucas",
+      name: "Los Cabos",
+      slug: "los-cabos",
       image: "/home/destination-cabo-san-lucas.jpg",
       video: "https://www.youtube.com/embed/tQILXCyLpHg?controls=0",
       carousel: [
         {
           url: "/cabo-san-lucas/destination/los-cabos-arco.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-cabo-pulmo.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-camellos.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos-kayak.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
         {
           url: "/cabo-san-lucas/destination/los-cabos_ballenas.jpg",
-          text: "Cabo San Lucas",
+          text: "Los Cabos",
         },
       ],
       description:
@@ -1018,7 +1021,7 @@ export default {
           },
           {
             url: "/cabo-san-lucas/activities/activities-5.jpg",
-            text: "Camel Ridind",
+            text: "Camel Riding",
           },
           {
             url: "/cabo-san-lucas/activities/activities-6.jpg",
@@ -2396,10 +2399,6 @@ export default {
 
             gallery: [
               {
-                url: "/cancun/packages/palmar/palmar-resort-3.jpg",
-                text: "",
-              },
-              {
                 url: "/cancun/packages/palmar/palmar-pool.jpg",
                 text: "",
               },
@@ -2460,6 +2459,7 @@ export default {
           rooms: [
             {
               name: "One Bedroom Suite",
+              nights: 5,
               priceUSD: 499,
               description:
                 "<p>Enjoy stunning views of either palm thronged gardens or the mesmerizing Caribbean Sea from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family.</p><p>Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to four guests and boasts a large flat screen TV.</p>",

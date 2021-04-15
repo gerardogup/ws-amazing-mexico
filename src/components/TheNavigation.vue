@@ -59,11 +59,11 @@
             </li>
           </ul>
           <span class="navbar-text lh-1 text-end d-none d-md-block">
-            <a href="tel:+18665015836">
+            <a :href="'tel:+1' + this.phone">
               <small class="text-dark-green">ANY DOUBT? CALL TOLL FREE</small>
-              <span class="fw-bolder fs-2 d-block text-green"
-                >1 866 501 5836</span
-              >
+              <span class="fw-bolder fs-2 d-block text-green">{{
+                this.phone
+              }}</span>
             </a>
           </span>
         </div>
@@ -103,16 +103,17 @@
 </template>
 <script>
 import store from "@/store.js";
-import QuoteRequest from '@/components/QuoteRequest.vue'
+import QuoteRequest from "@/components/QuoteRequest.vue";
 
 export default {
   data() {
     return {
       destinations: store.destinations,
+      phone: store.website.phone,
     };
   },
   components: {
-    QuoteRequest
+    QuoteRequest,
   },
   methods: {
     collapseMenu() {

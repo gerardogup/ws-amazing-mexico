@@ -3,7 +3,7 @@
     <div class="fixed-bottom px-3 py-4 shadow-lg lh-1 d-sm-none bg-blue">
       <a href="tel:+18665015836">
         <small class="fw-bold text-white">ANY DOUBT? CALL TOLL FREE</small>
-        <span class="fw-bolder fs-2 d-block text-white">1 866 501 5836</span>
+        <span class="fw-bolder fs-2 d-block text-white">{{ this.phone }}</span>
       </a>
     </div>
     <div class="container pt-3 pt-md-5">
@@ -17,7 +17,7 @@
           </router-link>
         </div>
         <div class="col-md-4 text-white mb-3">
-          <span class="d-block"> P: +1 866 883 0573</span>
+          <span class="d-block"> P: +1 {{ this.phone }}</span>
           <span class="d-block"> E: reservations@amazing-mexico.com </span>
           <span class="d-block"> W: www.amazing-mexico.com </span>
         </div>
@@ -76,7 +76,13 @@
   </section>
 </template>
 <script>
+import store from "@/store.js";
 export default {
+  data() {
+    return {
+      phone: store.website.phone,
+    };
+  },
   methods: {
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: "smooth" });

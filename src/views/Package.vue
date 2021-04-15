@@ -35,7 +35,7 @@
             >
             <span class="text-dark-green">
               Book Now, decide dates later.<br />
-              Free Cancellation before
+              No fees to modifying dates.
             </span>
           </div>
         </div>

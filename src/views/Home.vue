@@ -45,11 +45,10 @@
               Looking for Vacation Packages in Mexico
             </h2>
             <p class="px-sm-5">
-              At Amazing Mexico our mission is helping you to get an affordable
-              and relaxing vacation in the best beach destinations of Mexico. We
-              are guarantee you the best prices for Mexican vacation packages on
-              the internet. We can beat any vacation package price posted online
-              for any major Mexican resorts.
+              At Amazing Mexico our mission is to help you get an affordable and
+              relaxing vacation in any of our five destinations and best Mexican
+              beaches. We guarantee the best price for a Mexican vacation
+              package on the market.
             </p>
             <p class="px-sm-5">
               The staff at Amazing Mexico are specialists committed to provide
@@ -125,8 +124,8 @@ export default {
       store.destinations.forEach((dest) => {
         dest.packages.forEach((pkg) => {
           if (pkg.includeInHome) {
-            let _package = {... pkg }
-            _package.slug = dest.slug + '/' + pkg.slug;
+            let _package = { ...pkg };
+            _package.slug = dest.slug + "/" + pkg.slug;
             _package.destination = dest.name;
             packages.push(_package);
           }
