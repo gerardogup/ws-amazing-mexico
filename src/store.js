@@ -1561,9 +1561,9 @@ export default {
           adults: 2,
           children: 2,
           plan: "All Inclusive",
-          retailPriceUSD: 1605,
+          retailPriceUSD: 2000,
           priceUSD: 599,
-          savings: "63%",
+          savings: "71%",
           headers: [
             {
               url: "/mayan-riviera/packages/ocean-paradise/ocean-resort-2.jpg",
@@ -1588,7 +1588,7 @@ export default {
               "Beds With Dazzling White, Feather Pillows, Ultra Plush Duvet, White Luxury Bed Linens, and Latest Technology.",
               "Located On A Spectacular Sandy Beach Just Minutes from Downtown.",
             ],
-            description: "",
+            description: "<em>Additional nights are available starting at $229USD.</em>",
             allInclusive: [
               "At Ocean Riviera Paradise, guests can relax without having to worry about a thing – 24 hours a day.",
               "Meals, national and international alchool, cocktails and snacks.",
@@ -1702,10 +1702,10 @@ export default {
           },
           rooms: [
             {
-              name: "Standard Room",
-              priceUSD: 499,
+              name: "Daisy Junior Suite",
+              priceUSD: 399,
               description:
-                "<p>Each of these areas feature modern rooms decorated in a contemporary design with maritime touches. They are equipped with everything you need for a pleasant stay.</p><p>The rooms at the Ocean Riviera Paradise are spread across 2 different areas of the hotel: Daisy and the Eden.</p><p>Junior Suites: large, bright rooms with garden views. These have a King Size bed (up to 3 people) or two double beds (up to 4 people) as well as a lounge with sofa bed.</p>",
+                "<p>Daisy Junior Suite is located in front of the water park for children and right next to the main buffet restaurant. The max capacity for this unit is 4 adults and 1 children. It can be garden or pool view based on availability.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
                 {
