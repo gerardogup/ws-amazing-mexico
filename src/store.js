@@ -1093,23 +1093,23 @@ export default {
               name: "Deluxe Suite:",
               priceUSD: 599,
               description:
-                "<p>Enjoy views of lush, tropical flora and fauna as your private balcony gives way to a stunning garden view. Rooms are brightly decorated and furnished for relaxing stays.</p>",
+                "<p>Enjoy Fully equipped rooms, with double or 2 m beds. Garden or pool views</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
                 {
-                  url: "/puerto-vallarta/packages/melia/melia-room.jpg",
+                  url: "/puerto-vallarta/packages/occidental/occidental-room.jpg",
                   text: "",
                 },
                 {
-                  url: "/puerto-vallarta/packages/melia/melia-room-2.jpg",
+                  url: "/puerto-vallarta/packages/occidental/occidental-room2.jpg",
                   text: "",
                 },
                 {
-                  url: "/puerto-vallarta/packages/melia/melia-room-3.jpg",
+                  url: "/puerto-vallarta/packages/occidental/occidental-room3.jpg",
                   text: "",
                 },
                 {
-                  url: "/puerto-vallarta/packages/melia/melia-room-4.jpg",
+                  url: "/puerto-vallarta/packages/occidental/occidental-room4.jpg",
                   text: "",
                 },
               ],
