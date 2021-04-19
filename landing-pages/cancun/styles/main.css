@@ -1,0 +1,451 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,900&display=swap");
+
+@font-face {
+  font-family: "oh_golds_demoregular";
+  src: url("../fonts/oh_golds_demo-webfont.woff2") format("woff2"),
+    url("../fonts/oh_golds_demo-webfont.woff") format("woff");
+}
+
+.oh-golds {
+  font-family: "oh_golds_demoregular";
+}
+
+@font-face {
+  font-family: "trackers";
+  src: url("../fonts/Trackers\ demo.otf") format("opentype");
+}
+
+.trackers {
+  font-family: "trackers";
+}
+
+/*
+body {
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bolt-regular {
+  overflow: visible;
+  position: center;
+  width: 18.515px;
+  height: 24.689px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.timer-counters {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.timer-group {
+  display: inline-block;
+}
+
+.timer-group > .timer-counter {
+  display: block;
+  margin-bottom: -10px;
+  font-size: 1.4em;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-1 {
+  background-color: #006581;
+}
+
+.bg-2 {
+  background-color: #aed138;
+}
+
+.bg-3 {
+  background-color: #c99d67;
+}
+
+.bg-4 {
+  background-color: #0081df;
+}
+
+.bg-trip {
+  background-color: #00a680;
+}
+
+.btn.rounded-pill {
+  border-radius: 20px;
+}
+
+.btn-large.rounded-pill {
+  border-radius: 30px;
+}
+
+.btn.rounded-pill > span {
+  font-size: 1.2em;
+}
+
+.btn.btn-large.rounded-pill > span {
+  font-size: 1.5em;
+}
+
+.cancun {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  right: 60px;
+  font-size: 58px;
+  line-height: 70px;
+  text-align: right;
+}
+
+.card-form {
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-shadow {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.great-comment {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+img.save-now {
+  width: 150px;
+  position: absolute;
+  margin-top: -115px;
+  margin-left: 210px;
+}
+
+.lightbulb_on_light {
+  overflow: visible;
+  width: 34.81px;
+  height: 27.848px;
+  margin-top: 10px;
+}
+
+.lock {
+  overflow: visible;
+  width: 12.138px;
+  height: 13.872px;
+}
+
+.owl-carousel .owl-item img {
+  overflow: hidden;
+  height: 139px;
+}
+
+.package-price-only {
+  width: 80px;
+}
+
+.package-price {
+  width: 140px;
+}
+
+section.luxury {
+  background-image: url(../images/ISLA-CONTOY-6.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+}
+
+section.experience {
+  margin-top: 150px;
+}
+
+section.all-inclusive {
+  background-image: url(../images/cancun16_chica.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+section.confirmation {
+  background-image: url("../images/fondo_confirmation.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.site-hero {
+  height: 640px;
+  background-image: url(../images/Principal-A.jpg);
+  background-size: cover;
+  background-position: initial;
+}
+
+.site-hero-b {
+  height: 640px;
+  background-image: url(../images/Principal-B.jpg);
+  background-size: cover;
+  background-position: initial;
+}
+
+.step {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-1 {
+  color: #c99d67;
+}
+
+.text-2 {
+  color: #006581;
+}
+
+.text-4 {
+  color: #aed138;
+}
+
+.text-trip {
+  color: #00a680;
+}
+
+.Line_228 {
+  overflow: visible;
+  position: absolute;
+  width: 45.073px;
+  height: 33.923px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Line_229 {
+  overflow: visible;
+  position: absolute;
+  width: 45.073px;
+  height: 33.923px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 575.98px) {
+  .mtop {
+    margin-bottom: -27px;
+  }
+  .mtop2 {
+    margin-bottom: -34px;
+  }
+  .cancun {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* left: 15px; */
+    font-size: 42px;
+    line-height: 70px;
+    text-align: right;
+    right: 15px !important;
+  }
+  .percouple {
+    font-size: 16px;
+    margin-top: -17px;
+  }
+  .site-hero {
+    height: 640px;
+    background-image: url(../images/Principal-AC.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  section.all-inclusive {
+    background-image: url(../images/cancun16_chica.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 495px;
+  }
+  section.luxury {
+    background-image: url(../images/ISLA-CONTOY-62.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mtop {
+    margin-bottom: -27px;
+  }
+  .mtop2 {
+    margin-bottom: -34px;
+  }
+  section.luxury {
+    background-image: url(../images/ISLA-CONTOY-62.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+  .percouple {
+    font-size: 16px;
+    margin-top: -17px;
+  }
+  .cancun {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    /* left: 15px; */
+    font-size: 42px;
+    line-height: 70px;
+    text-align: right;
+    right: 15px !important;
+  }
+  .site-hero {
+    height: 640px;
+    background-image: url(../images/Principal-AC.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  section.all-inclusive {
+    background-image: url(../images/cancun16_chica.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 495px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mtop {
+    margin-bottom: -15px;
+  }
+  .mtop2 {
+    margin-bottom: -20px;
+  }
+  section.luxury {
+    background-image: url(../images/ISLA-CONTOY-62.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+  .percouple {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  .cancun {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    left: 15px;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: left;
+  }
+  .site-hero {
+    height: 640px;
+    background-image: url(../images/Principal-A.jpg);
+    background-size: cover;
+    background-position: initial;
+  }
+  section.all-inclusive {
+    background-image: url(../images/cancun16_chica.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 495px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mtop {
+    margin-bottom: -15px;
+  }
+  .mtop2 {
+    margin-bottom: -20px;
+  }
+  section.luxury {
+    background-image: url(../images/ISLA-CONTOY-6.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+  .percouple {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  .cancun {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    right: 71px;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: right;
+  }
+  .site-hero {
+    height: 640px;
+    background-image: url(../images/Principal-A.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  section.all-inclusive {
+    background-image: url(../images/cancun16_chica.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mtop {
+    margin-bottom: -15px;
+  }
+  .mtop2 {
+    margin-bottom: -20px;
+  }
+  section.luxury {
+    background-image: url(../images/ISLA-CONTOY-6.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+  }
+  .percouple {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  .cancun {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    right: 71px;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: right;
+  }
+  .site-hero {
+    height: 640px;
+    background-image: url(../images/Principal-A.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  section.all-inclusive {
+    background-image: url(../images/cancun16_chica.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  background-position: center top;
+}
+
+.degradado {
+  background: linear-gradient(
+    to right,
+    rgba(56, 101, 140, 1) 0%,
+    rgba(179, 197, 43, 1) 100%
+  );
+  padding: 20px;
+}
