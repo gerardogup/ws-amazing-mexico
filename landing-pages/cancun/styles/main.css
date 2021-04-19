@@ -172,7 +172,7 @@ section.luxury {
 }
 
 section.experience {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 section.all-inclusive {
@@ -266,6 +266,12 @@ section.confirmation {
     background-size: cover;
     background-position: center;
   }
+  .site-hero-b {
+    height: 400px;
+    background-image: url(../images/Principal-BC.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
     background-position: bottom;
@@ -350,6 +356,12 @@ section.confirmation {
     background-image: url(../images/Principal-A.jpg);
     background-size: cover;
     background-position: initial;
+  }
+  .site-hero-b {
+    height: 640px;
+    background-image: url(../images/Principal-B.jpg);
+    background-size: cover;
+    background-position: center;
   }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
