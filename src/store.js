@@ -1009,7 +1009,7 @@ export default {
               "Welcome cocktail",
               "Breakfast and dinner in a total of 5 restaurants",
               "Currency exchange in the reception area",
-              
+
             ],
           },
           resort: {
@@ -1051,7 +1051,7 @@ export default {
                 description:
                   "<p>Is located next to the lobby</p>",
               },
-              
+
             ],
             gallery: [
               {
@@ -1797,7 +1797,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 6 days and 5 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
               "Stay in a Standard Room",
               "A Unique Dining Experience With Gourmet All Inclusive Making Your Stay the Most Pleasurable.",
@@ -2671,7 +2671,7 @@ export default {
                 "<p>Enjoy stunning views of palm thronged gardens from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family. Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to 4 people and boasts a large flat screen TV. You will not be disappointed as this is 4 times larger than a normal hotel room with 2 bathrooms</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
-               
+
                 {
                   url: "/cancun/packages/palmar/palmar-room-2.jpg",
                   text: "",
@@ -2680,7 +2680,7 @@ export default {
                   url: "/cancun/packages/palmar/palmar-room-3.jpg",
                   text: "",
                 },
-              
+
                 {
                   url: "/cancun/packages/palmar/palmar-room-8.jpg",
                   text: "",
@@ -2703,7 +2703,7 @@ export default {
                 "<p>Enjoy stunning views of either palm thronged gardens or the mesmerizing Caribbean Sea from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family.</p><p>Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to four guests and boasts a large flat screen TV.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
               gallery: [
-              
+
                 {
                   url: "/cancun/packages/palmar/palmar-room-5.jpg",
                   text: "",

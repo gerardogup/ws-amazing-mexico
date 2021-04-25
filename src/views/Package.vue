@@ -83,7 +83,7 @@
     <section class="details py-3 py-md-5">
       <div class="container">
         <div class="row">
-          <div class="col col-md-8 mb-3 mb-md-5">
+          <div class="col-md-8 mb-3 mb-md-5">
             <ul class="nav nav-pills nav-fill bg-turquoise p-3 rounded mb-4">
               <li class="nav-item">
                 <a
@@ -153,7 +153,7 @@
               <reviews :content="pkg.reviews" />
             </div>
           </div>
-          <div class="col col-md-4 mb-5">
+          <div class="col-md-4 mb-5">
             <div class="bg-blue rounded-top text-white pt-4 px-4 pb-3 lh-1">
               <div class="h2 fw-bold mb-0">Call Now!</div>
               <div>
