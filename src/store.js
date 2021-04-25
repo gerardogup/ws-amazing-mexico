@@ -1319,7 +1319,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
               "Stay in a Standard Room",
               "A Unique Dining Experience With Gourmet All Inclusive Making Your Stay the Most Pleasurable.",
@@ -1797,7 +1797,11 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 5 nights for 2 adults and up to 2 children 12 and under.",
+<<<<<<< HEAD
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+=======
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+>>>>>>> eb456059d06425c950161faeb92f3edd60cbcadd
               "All Inclusive plan.",
               "Stay in a Standard Room",
               "A Unique Dining Experience With Gourmet All Inclusive Making Your Stay the Most Pleasurable.",
@@ -2550,7 +2554,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "All Inclusive plan.",
               "Stay in a super-comfortable, fully furnished One Bedroom Suite with one king plus, 1 queen murphy beds and balcony.",
               "Complimentary fully staffed Kids Club with all day activities. Nannie and babysitting services available for an extra charge.",
@@ -2836,7 +2840,7 @@ export default {
           offer: {
             rating: 4.5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "Stay in a comfortable Standard Room in All Inclusive plan. ",
               "Beachfront property.",
               "amily-friendly hotel.",
@@ -2984,7 +2988,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "Stay in a comfortable Standard Room in All Inclusive plan. ",
               "Beachfront property.",
               "Family-friendly hotel.",
@@ -3212,7 +3216,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-              "This amazing package includes 6 days and 4 nights for 2 adults and up to 2 children 12 and under.",
+              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
               "Stay in a comfortable Standard Room in All Inclusive plan. ",
               "Beachfront property.",
               "Family-friendly hotel.",
