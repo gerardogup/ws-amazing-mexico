@@ -3,18 +3,21 @@
     <Navigation />
     <router-view :key="$route.path" />
     <Footer />
+    <Banner /> 
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import Navigation from "@/components/TheNavigation.vue";
 import Footer from "@/components/TheFooter.vue";
+import Banner from "@/components/TheBanner.vue";
 
 export default {
   name: "app",
   components: {
     Navigation,
     Footer,
+    Banner
   }
 };
 </script>

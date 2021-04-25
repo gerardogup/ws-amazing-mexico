@@ -1,6 +1,18 @@
 export default {
   website: {
     phone: "866 883 0573",
+    banners: [
+      {
+        image: '/layout/banners/2021/04/pinata-banner-a.jpg',
+        fromDate: new Date(2021, 3, 26, 0, 0, 0),
+        toDate: new Date(2021, 4, 2, 23, 59, 59)
+      },
+      {
+        image: '/layout/banners/2021/05/pinata-banner-b.jpg',
+        fromDate: new Date(2021, 4, 3, 0, 0, 0),
+        toDate: new Date(2021, 4, 8, 23, 59, 59)
+      }
+    ]
   },
   home: {
     carousel: [
@@ -1797,11 +1809,7 @@ export default {
           offer: {
             rating: 5,
             includes: [
-<<<<<<< HEAD
               "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
-=======
-              "This amazing package includes 5 days and 4 nights for 2 adults and up to 2 children 12 and under.",
->>>>>>> eb456059d06425c950161faeb92f3edd60cbcadd
               "All Inclusive plan.",
               "Stay in a Standard Room",
               "A Unique Dining Experience With Gourmet All Inclusive Making Your Stay the Most Pleasurable.",
