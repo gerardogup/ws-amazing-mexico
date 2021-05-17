@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="banner != null">
     <img
       id="mainBanner"
       :src="require(`@/assets/images${this.banner}`)"
@@ -32,11 +32,15 @@ export default {
     },
     showBanner() {
       let banner = document.getElementById("mainBanner");
-      banner.classList.remove("d-none");
+      if (banner != null) {
+        banner.classList.remove("d-none");
+      }
     },
     hideBanner() {
       let banner = document.getElementById("mainBanner");
-      banner.classList.add("d-none");
+      if (banner != null) {
+        banner.classList.add("d-none");
+      }
     },
   },
   mounted() {

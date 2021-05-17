@@ -59,10 +59,10 @@
             </li>
           </ul>
           <span class="navbar-text lh-1 text-end d-none d-md-block">
-            <a :href="'tel:+1' + this.phone">
+            <a :href="'tel:+1' + phone">
               <small class="text-dark-green">ANY DOUBT? CALL TOLL FREE</small>
               <span class="fw-bolder fs-2 d-block text-green">{{
-                this.phone
+                phone
               }}</span>
             </a>
           </span>

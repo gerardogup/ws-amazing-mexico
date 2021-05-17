@@ -150,5 +150,17 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+
+    <script type="text/javascript">
+      function add_chatinline() {
+        var hccid = 48557891;
+        var nt = document.createElement("script");
+        nt.async = true;
+        nt.src = "https://mylivechat.com/chatinline.aspx?hccid=" + hccid;
+        var ct = document.getElementsByTagName("script")[0];
+        ct.parentNode.insertBefore(nt, ct);
+      }
+      add_chatinline();
+    </script>
   </body>
 </html>
