@@ -60,6 +60,12 @@
       gtag("config", "AW-960180995");
     </script>
 
+    <script>
+      gtag("config", "AW-960180995/KcEuCO-apP4BEIPm7MkD", {
+        phone_conversion_number: "+1 866 883 0573",
+      });
+    </script>
+
     <!-- Event snippet for AM QR conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
       function gtag_report_conversion_qr(url) {
@@ -85,6 +91,22 @@
         };
         gtag("event", "conversion", {
           send_to: "AW-960180995/TPuZCL2Yu_4BEIPm7MkD",
+          event_callback: callback,
+        });
+        return false;
+      }
+    </script>
+
+    <!-- Event snippet for AM-Llamada desde el Sitio Movil conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+      function gtag_report_conversion_ph(url) {
+        var callback = function() {
+          if (typeof url != "undefined") {
+            window.location = url;
+          }
+        };
+        gtag("event", "conversion", {
+          send_to: "AW-960180995/EW9sCNqapP4BEIPm7MkD",
           event_callback: callback,
         });
         return false;

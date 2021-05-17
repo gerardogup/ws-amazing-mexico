@@ -1,7 +1,10 @@
 <template>
   <section class="footer py-5">
     <div class="fixed-bottom px-3 py-4 shadow-lg lh-1 d-sm-none bg-blue">
-      <a href="tel:+18665015836">
+      <a
+        href="tel:+18665015836"
+        @click="return window.gtag_report_conversion_ph('tel:' + this, phone);"
+      >
         <small class="fw-bold text-white">ANY DOUBT? CALL TOLL FREE</small>
         <span class="fw-bolder fs-2 d-block text-white">{{ this.phone }}</span>
       </a>
