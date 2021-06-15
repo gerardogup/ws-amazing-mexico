@@ -1,7 +1,7 @@
 export default {
   website: {
     phone: "866 883 0573",
-    banners: [
+    banners: [ //considerar que la fecha debe comenzar en el mes 0.
       {
         image: '/layout/banners/2021/04/pinata-banner-a.jpg',
         fromDate: new Date(2021, 3, 26, 0, 0, 0),
@@ -11,6 +11,21 @@ export default {
         image: '/layout/banners/2021/05/pinata-banner-b.jpg',
         fromDate: new Date(2021, 4, 3, 0, 0, 0),
         toDate: new Date(2021, 4, 8, 23, 59, 59)
+      },
+      {
+        image: '/layout/banners/2021/06/am-4-of-july-2021-pre-campaign.jpg',
+        fromDate: new Date(2021, 5, 14, 0, 0, 0),
+        toDate: new Date(2021, 5, 20, 23, 59, 59)
+      },
+      {
+        image: '/layout/banners/2021/06/am-4-of-july-2021-campaign.jpg',
+        fromDate: new Date(2021, 5, 21, 0, 0, 0),
+        toDate: new Date(2021, 6, 3, 23, 59, 59)
+      },
+      {
+        image: '/layout/banners/2021/07/am-4-of-july-2021-final.jpg',
+        fromDate: new Date(2021, 6, 4, 0, 0, 0),
+        toDate: new Date(2021, 6, 4, 23, 59, 59)
       }
     ]
   },

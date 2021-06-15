@@ -46,6 +46,9 @@
               >
             </li> -->
             <li class="nav-item text-center border-bottom">
+              <a class="nav-link" href="https://blog.amazing-mexico.com">Blog</a>
+            </li>
+            <li class="nav-item text-center border-bottom">
               <router-link class="nav-link" to="/faq">FAQs</router-link>
             </li>
             <li class="nav-item fw-bold text-center border-bottom">
