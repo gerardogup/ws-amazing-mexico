@@ -202,6 +202,13 @@ section.confirmation {
   background-position: initial;
 }
 
+.site-hero-b-1 {
+    height: 640px;
+    background-image: url(../images/Principal-B-1.jpg);
+    background-size: cover;
+    background-position: initial;
+}
+
 .step {
   font-family: "Montserrat", sans-serif;
 }
