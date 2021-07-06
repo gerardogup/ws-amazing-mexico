@@ -101,7 +101,7 @@ export default {
 }
 .btn-scroll {
   width: 70px;
-  margin-right: 75px;
-  margin-bottom: 17px;
+  margin-right: 10px;
+  margin-bottom: 37px;
 }
 </style>
