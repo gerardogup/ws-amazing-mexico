@@ -20,12 +20,12 @@ export default {
       {
         image: '/layout/banners/2021/06/am-4-of-july-2021-campaign.jpg',
         fromDate: new Date(2021, 5, 21, 0, 0, 0),
-        toDate: new Date(2021, 6, 3, 23, 59, 59)
+        toDate: new Date(2021, 6, 4, 23, 59, 59)
       },
       {
         image: '/layout/banners/2021/07/am-4-of-july-2021-final.jpg',
-        fromDate: new Date(2021, 6, 4, 0, 0, 0),
-        toDate: new Date(2021, 6, 4, 23, 59, 59)
+        fromDate: new Date(2021, 6, 5, 0, 0, 0),
+        toDate: new Date(2021, 6, 5, 23, 59, 59)
       }
     ]
   },
