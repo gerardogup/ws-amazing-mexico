@@ -588,20 +588,20 @@ export default {
             },
           ],
         },
-        /*{
+        {
           id: 3,
           name: "Barcelo All Inclusive",
           slug: "bercelo-all-inclusive",
           image: "/puerto-vallarta/packages/barcelo/barcelo-pool-3.jpg",
           includeInHome: false,
-          soldOut: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
           plan: "All Inclusive",
           retailPriceUSD: 1264,
-          priceUSD: 699,
-          savings: "45%",
+          priceUSD: 599,
+          savings: "47%",
           headers: [
             {
               url: "/puerto-vallarta/packages/barcelo/barcelo-resort-3.jpg",
@@ -788,7 +788,7 @@ export default {
               rating: 4,
             },
           ],
-        },*/
+        },
         {
           id: 4,
           name: "Melia All Inclusive",

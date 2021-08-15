@@ -104,7 +104,7 @@ export default {
     };
   },
   methods: {
-    nextMonth() { 
+    nextMonth() {
       var objDate = new Date();
       objDate.setMonth(objDate.getMonth() + 1);
 
@@ -132,6 +132,9 @@ export default {
             this.waiting = false;
             this.saved = true;
             window.gtag_report_conversion_fv();
+            window.pintrk("track", "lead", {
+              lead_type: "Free Vacation",
+            });
           })
           .catch(() => {
             this.waiting = false;
@@ -158,9 +161,10 @@ export default {
       };
     },
     randomString(length) {
-      const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz".split(
-        ""
-      );
+      const chars =
+        "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz".split(
+          ""
+        );
 
       if (!length) {
         length = Math.floor(Math.random() * chars.length);
