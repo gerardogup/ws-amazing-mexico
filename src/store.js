@@ -2722,7 +2722,7 @@ export default {
                 },
               ],
             },
-            {
+            /*{
               name: "Deluxe Suite",
               nights: 5,
               priceUSD: 599,
@@ -2756,7 +2756,7 @@ export default {
                   text: "",
                 },
               ],
-            },
+            },*/
           ],
           amenities: [
             "24 Hour Room Service",
