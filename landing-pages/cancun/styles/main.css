@@ -165,7 +165,7 @@ img.save-now {
 }
 
 section.luxury {
-  background-image: url(../images/ISLA-CONTOY-6.jpg);
+  background-image: url(../images/ISLA-CONTOY.jpg);
   background-size: cover;
   background-position: top;
   height: 600px;
@@ -176,7 +176,7 @@ section.experience {
 }
 
 section.all-inclusive {
-  background-image: url(../images/cancun16_chica.jpg);
+  background-image: url(../images/playa-cancun-chica.jpg);
   background-position: center;
   background-size: cover;
   height: 350px;
@@ -280,7 +280,7 @@ section.confirmation {
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/playa-cancun-chica.jpg);
     background-position: bottom;
     background-size: cover;
     height: 495px;
@@ -326,7 +326,7 @@ section.confirmation {
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/playa-cancun-chica.jpg);
     background-position: bottom;
     background-size: cover;
     height: 495px;
@@ -371,7 +371,7 @@ section.confirmation {
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/playa-cancun-chica.jpg);
     background-position: bottom;
     background-size: cover;
     height: 495px;
@@ -410,7 +410,7 @@ section.confirmation {
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/playa-cancun-chica.jpg);
     background-position: center;
     background-size: cover;
     height: 350px;
@@ -425,7 +425,7 @@ section.confirmation {
     margin-bottom: -20px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-6.jpg);
+    background-image: url(../images/ISLA-CONTOY.jpg);
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -449,7 +449,7 @@ section.confirmation {
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/playa-cancun-chica.jpg);
     background-position: center;
     background-size: cover;
     height: 350px;

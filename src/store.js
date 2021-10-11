@@ -20,12 +20,12 @@ export default {
       {
         image: '/layout/banners/2021/06/am-4-of-july-2021-campaign.jpg',
         fromDate: new Date(2021, 5, 21, 0, 0, 0),
-        toDate: new Date(2021, 6, 3, 23, 59, 59)
+        toDate: new Date(2021, 6, 4, 23, 59, 59)
       },
       {
         image: '/layout/banners/2021/07/am-4-of-july-2021-final.jpg',
-        fromDate: new Date(2021, 6, 4, 0, 0, 0),
-        toDate: new Date(2021, 6, 4, 23, 59, 59)
+        fromDate: new Date(2021, 6, 5, 0, 0, 0),
+        toDate: new Date(2021, 6, 5, 23, 59, 59)
       }
     ]
   },
@@ -588,20 +588,20 @@ export default {
             },
           ],
         },
-        /*{
+        {
           id: 3,
           name: "Barcelo All Inclusive",
           slug: "bercelo-all-inclusive",
           image: "/puerto-vallarta/packages/barcelo/barcelo-pool-3.jpg",
           includeInHome: false,
-          soldOut: true,
+          soldOut: false,
           nights: 4,
           adults: 2,
           children: 2,
           plan: "All Inclusive",
           retailPriceUSD: 1264,
-          priceUSD: 699,
-          savings: "45%",
+          priceUSD: 599,
+          savings: "47%",
           headers: [
             {
               url: "/puerto-vallarta/packages/barcelo/barcelo-resort-3.jpg",
@@ -788,7 +788,7 @@ export default {
               rating: 4,
             },
           ],
-        },*/
+        },
         {
           id: 4,
           name: "Melia All Inclusive",
@@ -2722,7 +2722,7 @@ export default {
                 },
               ],
             },
-            {
+            /*{
               name: "Deluxe Suite",
               nights: 5,
               priceUSD: 599,
@@ -2756,7 +2756,7 @@ export default {
                   text: "",
                 },
               ],
-            },
+            },*/
           ],
           amenities: [
             "24 Hour Room Service",
