@@ -127,7 +127,6 @@
             }
             axios.post('https://developers.eplat.com/api/webhooks/incoming/genericjson/newlead?code=80f32f6123104d09a72c000047564e51', data)
                 .then(function(response) {
-                    $('#lblWait').addClass('d-none');
                     $('button[type=submit]').show();
                     window.location.replace($('#hdnConfirmation').val());
                 })
