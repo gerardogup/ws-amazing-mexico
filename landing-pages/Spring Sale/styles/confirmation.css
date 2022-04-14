@@ -1,0 +1,309 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+body {
+    background-color: #FFF5F5;
+}
+
+.bg-dark {
+    background: transparent linear-gradient(180deg, #F16B94 0%, #FF6B8900 100%) 0% 0% no-repeat padding-box;
+    background-color: transparent !important;
+}
+
+.shadow-sm {
+    box-shadow: 0rem 0rem rgba(0,0,0,.0) !important;
+}
+
+.custome-button {
+    background: transparent linear-gradient(90deg, #D62F46 0%, #FF8F8F 100%) 0% 0% no-repeat padding-box;
+    border-radius: .25rem;
+    border: none;
+    width: 47%;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+    .custome-button:hover {
+        background: #D62F46;
+    }
+
+h4 {
+    color: #FFC4C6;
+}
+
+.custome-button2 {
+    background: #808080;
+    border-radius: .25rem;
+    border: none;
+    width: 47%;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+    .custome-button2:hover {
+        background: #606060;
+    }
+
+.custome-link {
+    color: #D62F46;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #FFC4C6;
+    background-image: url("../images/am-spring-Sale-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    margin-top: -100px;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 900;
+    color: white;
+    font-size: 6rem;
+}
+
+.jumbotron-heading-2 {
+    font-weight: 900;
+    color: white;
+    font-size: 5rem;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.custome-form {
+    margin-top: -300px !important;
+}
+
+.line-button {
+    border: solid;
+    border-radius;
+    .25rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-danger {
+    background: #D62F46;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background: #FFC4C6;
+    }
+
+
+.web-site {
+    color: #D62F46;
+    border: solid 1px;
+    border-radius;
+    .25rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+    .web-site:hover {
+        color: #FFC4C6;
+        text-decoration: none;
+    }
+
+.succesfully {
+    color: forestgreen;
+    border-top: solid 2px #E9E9E9;
+}
+
+
+.footer-color {
+    background-color: #D62F46;
+    color: #ffffff !important;
+}
+
+footer {
+    padding-top: 3rem;
+}
+
+    footer p {
+        margin-bottom: .25rem;
+    }
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    border-radius: .25rem;
+}
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+        background-color: #ffdddd;
+    }
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+    .step #register:before {
+        font-weight: 700;
+        content: "1";
+    }
+
+    /* Mark the active step: */
+    .step.active {
+        background-color: #;
+    }
+
+    /* Mark the steps that are finished and valid: */
+    .step.finish {
+        background-color: #;
+    }
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey;
+	line-height: normal;
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #D62F46;
+    font-weight: normal
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.card {
+    border: none;
+    position: relative
+}
+
+#progressbar {
+    margin-bottom: 1rem;
+    overflow: hidden;
+    color: white;
+}
+
+#progressbar .active {
+    color: #ffffff
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 33.3333%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-weight: 700;
+    content: "1";
+}
+
+    #progressbar #personal:before {
+        font-weight: 700;
+        content: "2";
+        color: #FFC4C6;
+        background: #D62F46;
+    }
+
+    #progressbar #payment:before {
+        font-weight: 700;
+        content: "3";
+        color: #FFC4C6;
+        background: #D62F46;
+    }
+
+    #progressbar li:before {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        display: block;
+        font-size: 20px;
+        color: #FFC4C6;
+        background: white;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        padding: 2px
+    }
+
+    #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        left: 0;
+        top: 25px;
+        z-index: -1
+    }
+
+    #progressbar li.active:before,
+    #progressbar li.active:after {
+        background: #D62F46;
+    }
+
+#progress-bg {
+    background-color: transparent !important;
+}
+
+.progress-bar {
+    background-color: #D62F46
+}
