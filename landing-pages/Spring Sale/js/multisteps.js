@@ -108,11 +108,14 @@ function sendForm() {
     if (chat !== null) {
         data.webhookID = "4ccdcfcb-1169-c7e9-72ff-8317d525b72c";
     }
+    loadingMessage();
     axios.post('https://developers.eplat.com/api/webhooks/incoming/genericjson/newlead?code=80f32f6123104d09a72c000047564e51', data)
+    
         .then(function (response) {
             $('button[type=submit]').show();
             window.location.replace($('#hdnConfirmation').val());
-            window.location = window.location.href.replace('form.html', 'confirmation.html');
+            window.location = window.location.href.replace('form.html', 
+            'confirmation.html');
             btnSubmit.removeAttribute("disabled");
 
         })
@@ -124,4 +127,25 @@ function sendForm() {
     form.classList.add('was-validated');
     btnSubmit.removeAttribute("disabled");
 }
+}
+
+function loadingMessage() {
+Swal.fire({
+    customClass: {
+        loader: "swal2-loader",
+        text: "swal2-text",
+      },
+    text: "Submitting",
+    color: "gray",
+    showConfirmButton: false,
+    iconColor: "#D62F46",
+    backdrop: `rgba(0,0,0,0.5)`,
+    width: 160,
+    timerProgressBar: true,
+    // timer: 3000,
+    didOpen: () => {
+      swal.showLoading();
+    },
+  
+ });
 }

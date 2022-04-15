@@ -202,6 +202,13 @@ section.confirmation {
   background-position: initial;
 }
 
+.site-hero-c {
+    height: 640px;
+    background-image: url(../images/Principal-B.jpg);
+    background-size: cover;
+    background-position: initial;
+}
+
 .site-hero-b-1 {
     height: 640px;
     background-image: url(../images/Principal-B-1.jpg);
@@ -273,12 +280,18 @@ section.confirmation {
     background-size: cover;
     background-position: center;
   }
-  .site-hero-b {
-    height: 400px;
-    background-image: url(../images/Principal-BC.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+    .site-hero-b {
+        height: 400px;
+        background-image: url(../images/Principal-BC.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .site-hero-c {
+        height: 400px;
+        background-image: url(../images/Principal-BD.jpg);
+        background-size: cover;
+        background-position: center;
+    }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
     background-position: bottom;
@@ -370,6 +383,12 @@ section.confirmation {
     background-size: cover;
     background-position: center;
   }
+    .site-hero-c {
+        height: 640px;
+        background-image: url(../images/Principal-B.jpg);
+        background-size: cover;
+        background-position: center;
+    }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
     background-position: bottom;
