@@ -24,7 +24,7 @@
                 <br /><span class="retail-price"
                   >${{ pkg.retailPriceUSD }}</span
                 >
-                <br />SAVINGS {{ pkg.savings }}
+                <br />SAVINGS {{savings(pkg.priceUSD, pkg.retailPriceUSD) }}%
               </span>
             </span>
             <small class="d-block"
@@ -63,7 +63,7 @@
             >
               <small>RETAIL PRICE</small>
               <br /><span class="retail-price">${{ pkg.retailPriceUSD }}</span>
-              <br />SAVINGS {{ pkg.savings }}
+              <br />SAVINGS {{savings(pkg.priceUSD, pkg.retailPriceUSD) }}%
             </span>
           </span>
           <small class="d-block"
@@ -220,6 +220,12 @@ export default {
     Reviews,
     PackageCard,
   },
+  methods: {
+      savings(price, retailprice) {
+      this.saving = ( price * 100) / retailprice
+      return Math.round(this.saving)
+    }
+    },
   computed: {
     otherPackage() {
       let index = 0;

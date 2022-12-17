@@ -16,6 +16,7 @@
       />
       <span class="card-body text-white d-block">
         <span class="fw-bold fs-3">${{ pckg.priceUSD }}</span>
+        <span class="icon-discount"><img src = "../assets/images/layout/sorteo4tjuly/usflag.svg" width="80" v-if="pckg.discount"/></span>
         <span class="card-title">
           <h5 class="fw-bolder fs-3 d-inline">{{ pckg.name }}</h5>
         </span>
@@ -64,5 +65,18 @@ export default {
 .sold-out {
   position: absolute;
   margin-top: -5px;
+}
+.icon-discount{
+  margin-left: 45%;
+  margin-top: -15%;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+.icon-discount{
+  margin-left: 65%;
+  margin-top: -10%;
+  position: absolute;
+}
 }
 </style>

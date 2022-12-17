@@ -3,9 +3,9 @@ export default {
     phone: "866 883 0573",
     banners: [ //considerar que la fecha debe comenzar en el mes 0.
       {
-        image: '/layout/banners/2021/11/am-black-friday-2021.jpg',
-        fromDate: new Date(2021, 10, 3, 0, 0, 0),
-        toDate: new Date(2021, 10, 26, 23, 59, 59)
+        image: '/xmas/AM_Banner.webp',
+        fromDate: new Date(2022, 11, 8, 0, 0, 0),
+        toDate: new Date(2022, 10, 25, 23, 59, 59)
       }
     ]
   },
@@ -173,6 +173,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1280,
           priceUSD: 499,
+          discount: 0,
           savings: "79%",
           headers: [
             {
@@ -274,6 +275,7 @@ export default {
             {
               name: "Standard Room",
               priceUSD: 499,
+              discount: 0,
               description:
                 "<p>These are Garden or Mountain View Room. We know when you are on vacation having a cool and comfortable room is very important so we offer: King size bed or two full beds. Color T.V with cable and remote control. Telephone Air Conditioning Hair dryer Bath & Shower Safe-deposit box.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -367,6 +369,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1280,
           priceUSD: 499,
+          discount: 0,
           savings: "62%",
           headers: [
             {
@@ -501,6 +504,7 @@ export default {
             {
               name: "Standard Room",
               priceUSD: 499,
+              discount: 0,
               description:
                 "<p>Comfortable and spacious rooms with a fresh, mexican contemparoary style, and one king size or 2 double beds.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -581,6 +585,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1264,
           priceUSD: 599,
+          discount: 0,
           savings: "47%",
           headers: [
             {
@@ -711,6 +716,7 @@ export default {
             {
               name: "Deluxe Suite:",
               priceUSD: 699,
+              discount: 0,
               description:
                 "<p>The Deluxe Suite rooms are perfect to spend a luxury vacation. Its 732 ft² will make your stay a perfect place to enjoy to the utmost comfort. </p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -782,6 +788,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1284,
           priceUSD: 599,
+          discount: 0,
           savings: "46%",
           headers: [
             {
@@ -900,6 +907,7 @@ export default {
             {
               name: "Deluxe Suite:",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Enjoy views of lush, tropical flora and fauna as your private balcony gives way to a stunning garden view. Rooms are brightly decorated and furnished for relaxing stays.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -988,6 +996,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1264,
           priceUSD: 599,
+          discount: 0,
           savings: "53%",
           headers: [
             {
@@ -1099,6 +1108,7 @@ export default {
             {
               name: "Deluxe Suite:",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Enjoy Fully equipped rooms, with double or 2 m beds. Garden or pool views</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -1308,6 +1318,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1605,
           priceUSD: 599,
+          discount: 0,
           savings: "63%",
           headers: [
             {
@@ -1408,6 +1419,7 @@ export default {
             {
               name: "Standard Room",
               priceUSD: 599,
+              discount: 0,
               description:
                 "1 king or 2 double beds, full bathroom with tub, private terrace, desert or garden view, safety deposit box, cable TV and DVD player, fully equipped kitchenette. Guest rooms and suites are decorated in a striking, contemporary European design, with dark woods, plush white bedding and curtains and red accents for a touch of traditional Mexico. Living spaces feature contemporary earth tones.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -1517,6 +1529,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1991,
           priceUSD: 599,
+          discount: 0,
           savings: "70%",
           headers: [
             {
@@ -1596,6 +1609,7 @@ export default {
             {
               name: "SSuperior Room",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>The spacious, bright Superior rooms measure 495 ft² and feature a cheerful interior design and a welcoming terrace with views over the stunning gardens. They are a perfect space for couples or families who want to enjoy a comfortable stay at the beach. </p><p>These rooms feature a wide range of quality conveniences and facilities to fill your stay with pleasant sensations.</p><p>These rooms feature a wide range of quality conveniences and facilities to fill your stay with pleasant sensations.</p><p>Maximum room capacity:4 people (combinations of 3 adults and one child, or 2 adults and 2 children)</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -1786,6 +1800,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 2000,
           priceUSD: 599,
+          discount: 0,
           savings: "71%",
           headers: [
             {
@@ -1928,6 +1943,7 @@ export default {
             {
               name: "Daisy Junior Suite",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Daisy Junior Suite is located in front of the water park for children and right next to the main buffet restaurant. The max capacity for this unit is 4 adults and 1 children. It can be garden or pool view based on availability.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -2031,6 +2047,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1899,
           priceUSD: 599,
+          discount: 0,
           savings: "69%",
           headers: [
             {
@@ -2139,6 +2156,7 @@ export default {
             {
               name: "Deluxe Room",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Spacious room with 2 double beds or 1 king size bed, elegant and finely furnished. From the balcony or terrace you can enjoy marvelous views of the beautiful garden surroundings.</p><ul> <li>Maximum occupancy: 4 people</li><li>Balcony/Terrace of 7m2</li><li>Folding extra beds allowed: 1/li><li>Room size: 35m2</li><li>Bed type: 2 double beds or 1 king size bed</li></ul>",
 
@@ -2252,6 +2270,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1899,
           priceUSD: 499,
+          discount: 0,
           savings: "74%",
           headers: [
             {
@@ -2316,6 +2335,7 @@ export default {
             {
               name: "Deluxe Jacuzzi Room ",
               priceUSD: 499,
+              discount: 0,
               description:
                 "<p>This luxurious Deluxe Jacuzzi Room offers one king bed or two double beds with a jacuzzi with a scenic balcony or terrace. </p>",
 
@@ -2539,6 +2559,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1497,
           priceUSD: 599,
+          discount: 0,
           savings: "60%",
           headers: [
             {
@@ -2674,6 +2695,7 @@ export default {
               name: "One Bedroom Suite",
               nights: 4,
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Enjoy stunning views of palm thronged gardens from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family. Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to 4 people and boasts a large flat screen TV. You will not be disappointed as this is 4 times larger than a normal hotel room with 2 bathrooms</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -2706,6 +2728,7 @@ export default {
               name: "Deluxe Suite",
               nights: 5,
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Enjoy stunning views of either palm thronged gardens or the mesmerizing Caribbean Sea from the tranquility of your suite or the luxury of your private balcony. Tastefully decorated and designed down to the last detail, this is a perfect suite for a romantic getaway or small family.</p><p>Designer elements include one king size bed, a murphy bed in the living room, an en-suite bathroom with his and her sinks, shower and whirlpool tub. The full size kitchen is adorned by rich hardwoods, granite countertops and accompanied by state-of-the-art stainless steel appliances. The dining room and living area, embellished in warm hues, features seating for up to four guests and boasts a large flat screen TV.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -2825,6 +2848,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1606,
           priceUSD: 499,
+          discount: 0,
           savings: "69%",
           headers: [
             {
@@ -2897,6 +2921,7 @@ export default {
             {
               name: "Standard Room",
               priceUSD: 499,
+              discount: 0,
               description:
                 "<p>All rooms are air-conditioned with private balcony, king size / two double beds,cable TV, direct-dial telephone ($), mini-bar ($), safety-deposit box ($), internet access ($), hair dryer, radio alarm clock and amenities</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -2973,6 +2998,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1606,
           priceUSD: 499,
+          discount: 0,
           savings: "69%",
           headers: [
             {
@@ -3083,6 +3109,7 @@ export default {
             {
               name: "Standard Room",
               priceUSD: 499,
+              discount: 0,
               description:
                 "<p>Rooms are located throughout the two buildings of Oasis Palm. All rooms are air-conditioned with private bath, 2 double beds, cable TV, direct-dial telephone ($), mini-bar ($), safety-deposit box ($), internet access ($), hair dryer, radio alarm clock and amenities</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -3201,6 +3228,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1879,
           priceUSD: 599,
+          discount: 0,
           savings: "69%",
           headers: [
             {
@@ -3349,6 +3377,7 @@ export default {
             {
               name: "Deluxe Room",
               priceUSD: 599,
+              discount: 0,
               description:
                 "<p>Deluxe Rooms feature beautiful decor and marble throughout. All rooms provide individually controlled air-conditioning, a luxury private bath with marble countertops and shower/tub combos, a king size bed or two double beds, a small table and two chairs, a sofa, blackout drapes, 42-inch flat screen TV with cable and PPV [pay-per-view] service, direct-dial telephone, mini-bar with water, soft drinks and beer, safety-deposit box, Wi-Fi access, daily housekeeping, hair dryer, radio alarm clock, iPod charger, spa quality amenities, and complimentary toiletries.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -3458,6 +3487,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 2472,
           priceUSD: 599,
+          discount: 0,
           savings: "76%",
           headers: [
             {
@@ -3585,6 +3615,7 @@ export default {
             {
               name: "Deluxe Room",
               priceUSD: 399,
+              discount: 0,
               description:
                 "<p>Deluxe Room at the Grand Oasis Cancun is distinguished by the grand pyramid structure as the center point of the property with 613 rooms in the center pyramid two additional buildings. Under an impressive crystal cupola the lobby of the hotel is characterized by its hanging plants and exotic gardens. All rooms are redecorated in a minimalistic Mexican style, with spectacular views individually controlled air conditioning, bath with a shower/tub, two beds, TV with cable service and remote control, direct dial telephone, bath amenities, hair dryer, mini-bar, 24 hour room service (charge for delivery), safety deposit box.",
               gallery: [
@@ -3755,6 +3786,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1998,
           priceUSD: 699,
+          discount: 0,
           savings: "66%",
           headers: [
             {
@@ -3842,6 +3874,7 @@ export default {
             {
               name: "Deluxe Suite",
               priceUSD: 499,
+              discount: 0,
               description:
                 "Your deluxe suite invites you to enjoy cool days of relaxation in our air conditioned rooms, or just the soothing breeze from one of the palapa-inspired ceiling fans. And of course, an afternoon siesta is always awaiting you on your luxurious balcony with amazing views. Here at the resort of relaxation and luxury, you're guaranteed a 'perfect-moment' whether you want to snack on a meal you made with ease in your kitchenette or just had delivered onto your balcony.</p><p>Each luxurious accommodation in the Villa Del Palmar Resort offers every 'home-away-from-home' necessity you may need. The Deluxe Suite offers 2 double or 1 queen beds.</p>",
               galleryDescription: "Be our guest and see it for yourself.",
@@ -3926,6 +3959,7 @@ export default {
           plan: "All Inclusive",
           retailPriceUSD: 1261,
           priceUSD: 599,
+          discount: 0,
           savings: "53%",
           headers: [
             {
@@ -3996,6 +4030,7 @@ export default {
             {
               name: "Deluxe Room ",
               priceUSD: 399,
+              discount: 0,
               description:
                 "Large and comfortable rooms with a balcony. All the rooms feature oversized bathroom with luxurious amenities.</p>",
               galleryDescription: "Be our guest and see it for yourself.",

@@ -55,11 +55,13 @@
             class="me-2"
             alt="Asudestico"
           />
+          <a href="https://www.bbb.org/mx/jal/mexico/perfil/reservacion-de-hotel/villa-group-vacation-services-8888-332">
           <img
             :src="require('@/assets/images/layout/bbb.png')"
             style="height: 45px"
             alt="BBB"
           />
+        </a>
         </div>
         <div class="col-md-6 text-sm-end pb-md-1 pb-5">
           <h6 class="text-green">Accepted Credit Cards</h6>

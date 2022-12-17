@@ -105,3 +105,145 @@ ul.green-list li::before {
     margin-bottom: 0;
   }
 }
+
+td.the_wheel
+{
+    /* background-image: url(./wheel_back.png); */
+    background-position: center;
+    background-repeat: none;
+}
+
+/* Do some css reset on selected elements */
+h1, p
+{
+    margin: 0;
+}
+
+div.power_controls
+{
+    margin-right:70px;
+}
+
+div.html5_logo
+{
+    margin-left:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+    background-color: #cccccc;
+    cursor: pointer;
+    border:1px solid #333333;
+}
+
+table.power th
+{
+    background-color: white;
+    cursor: default;
+}
+
+td.pw1
+{
+    background-color: #6fe8f0;
+}
+
+td.pw2
+{
+    background-color: #86ef6f;
+}
+
+td.pw3
+{
+    background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+    cursor: pointer;
+}
+#canvasContainer {
+  position: relative;
+  width: 300px;
+}
+
+/* #canvas {
+  z-index: 1;
+} */
+
+#prizePointer {
+  position: absolute;
+  left: 46%;
+  top: 250px;
+  z-index: 999;
+}
+
+/* #canvas {
+  padding-top: 35%;
+  padding-bottom: 2%;
+} */
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
+#spin_button {
+    cursor: pointer;
+}
+.btn-spin {
+    background-color: transparent;
+}
+
+.lbl-prize {
+  font-size: 12px!important;
+}
+
+.modal-body {
+background-size: 124%;
+}
+
+.modal-body.wheel {
+  background-image: url(/assets/images/world-fifa/wheel/back01.png);
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  background-position: center;
+  height: auto;
+  padding-top: 20%
+}
+
+@media (max-width: 992px) { 
+  .modal-body {
+    background-image: url(/assets/images/world-fifa/wheel/back01.png);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+    height: auto;
+    padding-top: 20%
+  }
+
+
+
+  #canvasContainer {
+    position: relative;
+    width: 300px;
+  }
+  
+  #canvas {
+    z-index: 1;
+    padding-top: 30px;
+  }
+  
+  #prizePointer {
+    position: absolute;
+    left: 41%;
+    top: 105px;
+    z-index: 999;
+  }
+  
+  #canvas {
+    padding-top: 30px;
+    padding-bottom: 2%;
+  }
+
+}
