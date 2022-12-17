@@ -424,10 +424,10 @@ export default {
     this.modal = new bootstrap.Modal(myModal);
     this.modalWheel = new bootstrap.Modal(modalWheel);
     if (this.fromDate < this.now && this.toDate > this.now) {
-      this.modalWheel.show()
+      this.modal.show()
       }
       if (this.wheel.fromDate < this.now && this.wheel.toDate > this.now) {
-      this.modal.show()
+       this.modalWheel.show()
       }
     // this.modalPrizeSelected()
     // document.getElementById('playSound').click();
