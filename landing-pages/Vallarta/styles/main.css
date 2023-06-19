@@ -179,7 +179,7 @@ section.all-inclusive {
   background-image: url(../images/cancun16_chica.jpg);
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 700px;
 }
 
 section.confirmation {
@@ -294,9 +294,9 @@ section.confirmation {
     }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 495px;
+    height: 500px;
   }
   section.luxury {
     background-image: url(../images/ISLA-CONTOY-62.jpg);
@@ -340,9 +340,9 @@ section.confirmation {
   }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 495px;
+    height: 500px;
   }
 }
 
@@ -391,9 +391,9 @@ section.confirmation {
     }
   section.all-inclusive {
     background-image: url(../images/cancun16_chica.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 495px;
+    height: 500px;
   }
 }
 
@@ -432,7 +432,7 @@ section.confirmation {
     background-image: url(../images/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
-    height: 350px;
+    height: 500px;
   }
 }
 
@@ -471,7 +471,7 @@ section.confirmation {
     background-image: url(../images/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
-    height: 350px;
+    height: 500px;
   }
 }
 
