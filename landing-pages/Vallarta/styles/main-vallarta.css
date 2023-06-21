@@ -165,7 +165,7 @@ img.save-now {
 }
 
 section.luxury {
-  background-image: url(../images/ISLA-CONTOY-6.jpg);
+  background-image: url(../images/vallarta/ISLA-CONTOY-6.jpg);
   background-size: cover;
   background-position: top;
   height: 600px;
@@ -176,42 +176,42 @@ section.experience {
 }
 
 section.all-inclusive {
-  background-image: url(../images/cancun16_chica.jpg);
+  background-image: url(../images/vallarta/cancun16_chica.jpg);
   background-position: center;
   background-size: cover;
   height: 700px;
 }
 
 section.confirmation {
-  background-image: url("../images/fondo_confirmation.jpg");
+  background-image: url("../images/vallarta/fondo_confirmation.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .site-hero {
   height: 640px;
-  background-image: url(../images/Principal-A.jpg);
+  background-image: url(../images/vallarta/Principal-A.jpg);
   background-size: cover;
   background-position: initial;
 }
 
 .site-hero-b {
   height: 640px;
-  background-image: url(../images/Principal-B.jpg);
+  background-image: url(../images/vallarta/Principal-B.jpg);
   background-size: cover;
   background-position: initial;
 }
 
 .site-hero-c {
     height: 640px;
-    background-image: url(../images/Principal-B.jpg);
+    background-image: url(../images/vallarta/Principal-B.jpg);
     background-size: cover;
     background-position: initial;
 }
 
 .site-hero-b-1 {
     height: 640px;
-    background-image: url(../images/Principal-B-1.jpg);
+    background-image: url(../images/vallarta/Principal-B-1.jpg);
     background-size: cover;
     background-position: initial;
 }
@@ -276,30 +276,30 @@ section.confirmation {
   }
   .site-hero {
     height: 640px;
-    background-image: url(../images/Principal-AC.jpg);
+    background-image: url(../images/vallarta/Principal-AC.jpg);
     background-size: cover;
     background-position: center;
   }
     .site-hero-b {
         height: 400px;
-        background-image: url(../images/Principal-BC.jpg);
+        background-image: url(../images/vallarta/Principal-ABC.jpg);
         background-size: cover;
         background-position: center;
     }
     .site-hero-c {
         height: 400px;
-        background-image: url(../images/Principal-BD.jpg);
+        background-image: url(../images/vallarta/Principal-BD.jpg);
         background-size: cover;
         background-position: center;
     }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/vallarta/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-62.jpg);
+    /* background-image: url(../images/vallarta/ISLA-CONTOY-62.jpg); */
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -314,7 +314,7 @@ section.confirmation {
     margin-bottom: -34px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-62.jpg);
+   /*  background-image: url(../images/vallarta/ISLA-CONTOY-62.jpg); */
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -334,12 +334,12 @@ section.confirmation {
   }
   .site-hero {
     height: 640px;
-    background-image: url(../images/Principal-AC.jpg);
+    background-image: url(../images/vallarta/Principal-AC.jpg);
     background-size: cover;
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/vallarta/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -354,7 +354,7 @@ section.confirmation {
     margin-bottom: -20px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-62.jpg);
+   /*  background-image: url(../images/vallarta/ISLA-CONTOY-62.jpg); */
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -373,24 +373,24 @@ section.confirmation {
   }
   .site-hero {
     height: 640px;
-    background-image: url(../images/Principal-A.jpg);
+    background-image: url(../images/vallarta/Principal-A.jpg);
     background-size: cover;
     background-position: initial;
   }
   .site-hero-b {
     height: 640px;
-    background-image: url(../images/Principal-B.jpg);
+    background-image: url(../images/vallarta/Principal-B.jpg);
     background-size: cover;
     background-position: center;
   }
     .site-hero-c {
         height: 640px;
-        background-image: url(../images/Principal-B.jpg);
+        background-image: url(../images/vallarta/Principal-B.jpg);
         background-size: cover;
         background-position: center;
     }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/vallarta/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -405,7 +405,7 @@ section.confirmation {
     margin-bottom: -20px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-6.jpg);
+    background-image: url(../images/vallarta/ISLA-CONTOY-6.jpg);
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -424,12 +424,12 @@ section.confirmation {
   }
   .site-hero {
     height: 640px;
-    background-image: url(../images/Principal-A.jpg);
+    background-image: url(../images/vallarta/Principal-A.jpg);
     background-size: cover;
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/vallarta/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -444,7 +444,7 @@ section.confirmation {
     margin-bottom: -20px;
   }
   section.luxury {
-    background-image: url(../images/ISLA-CONTOY-6.jpg);
+    background-image: url(../images/vallarta/ISLA-CONTOY-6.jpg);
     background-size: cover;
     background-position: top;
     height: 600px;
@@ -463,12 +463,12 @@ section.confirmation {
   }
   .site-hero {
     height: 640px;
-    background-image: url(../images/Principal-A.jpg);
+    background-image: url(../images/vallarta/Principal-A.jpg);
     background-size: cover;
     background-position: center;
   }
   section.all-inclusive {
-    background-image: url(../images/cancun16_chica.jpg);
+    background-image: url(../images/vallarta/cancun16_chica.jpg);
     background-position: center;
     background-size: cover;
     height: 500px;
